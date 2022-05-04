@@ -1,0 +1,2 @@
+C:\Users\vinicius.fl\source\repos\ShoppingList\ShoppingList.ExtendedScreens\ShoppingList.ExtendedScreens.csproj;x64
+C:\Users\vinicius.fl\source\repos\ShoppingList\ShoppingList\ShoppingList.wapproj;x64

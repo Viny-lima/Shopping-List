@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZLCSd8E/GDBJkZOtUl2rzbbE+S/f4whHz5s2Kr1evRRDdjMXkhCamUpF3mMCq9mCB9TZLLu/NKY+7BaWerN6XQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\vinicius.fl\\source\\repos\\ShoppingList\\ShoppingList\\ShoppingList.wapproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\microsoft.windows.sdk.buildtools\\10.0.19041.8\\microsoft.windows.sdk.buildtools.10.0.19041.8.nupkg.sha512"
+  ],
+  "logs": []
+}
