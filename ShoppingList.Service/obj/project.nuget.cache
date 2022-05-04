@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "XbeZ9tEws3bWzETtjtv/zUVRYIoOf+yX/7JXyATQZHaH3GI6nyBJDAbwTdR9aAeFJdCal4JNebOMu2mbQcnzAg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\vinicius.fl\\source\\repos\\ShoppingList\\ShoppingList.Service\\ShoppingList.Service.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vinicius.fl\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

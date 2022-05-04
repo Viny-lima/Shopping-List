@@ -1,0 +1,2 @@
+C:\Users\vinicius.fl\source\repos\ShoppingList\ShoppingList\obj\x86\Debug\ShoppingList.wapproj.AssemblyReference.cache
+C:\Users\vinicius.fl\source\repos\ShoppingList\ShoppingList\obj\x86\Debug\ShoppingList.wapproj.CoreCompileInputs.cache
