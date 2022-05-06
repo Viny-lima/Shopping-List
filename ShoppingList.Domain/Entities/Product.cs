@@ -14,9 +14,7 @@ namespace ShoppingList.Domain.Entities
 
         public string Description { get; set; }
 
-        public DateTime registrationData { get; set; }
-
-        public string pathImage { get; set; }
+        public DateTime RegistrationData { get; set; }
 
     }
 }

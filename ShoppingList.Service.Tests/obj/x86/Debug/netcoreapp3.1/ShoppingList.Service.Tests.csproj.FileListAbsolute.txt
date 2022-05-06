@@ -88,7 +88,6 @@ C:\Users\vinicius.fl\source\repos\ShoppingList\ShoppingList.Service.Tests\bin\x8
 C:\Users\vinicius.fl\source\repos\ShoppingList\ShoppingList.Service.Tests\bin\x86\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 C:\Users\vinicius.fl\source\repos\ShoppingList\ShoppingList.Service.Tests\bin\x86\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 C:\Users\vinicius.fl\source\repos\ShoppingList\ShoppingList.Service.Tests\bin\x86\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-C:\Users\vinicius.fl\source\repos\ShoppingList\ShoppingList.Service.Tests\obj\x86\Debug\netcoreapp3.1\ShoppingList.Service.Tests.csproj.AssemblyReference.cache
 C:\Users\vinicius.fl\source\repos\ShoppingList\ShoppingList.Service.Tests\obj\x86\Debug\netcoreapp3.1\ShoppingList.Service.Tests.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\vinicius.fl\source\repos\ShoppingList\ShoppingList.Service.Tests\obj\x86\Debug\netcoreapp3.1\ShoppingList.Service.Tests.AssemblyInfoInputs.cache
 C:\Users\vinicius.fl\source\repos\ShoppingList\ShoppingList.Service.Tests\obj\x86\Debug\netcoreapp3.1\ShoppingList.Service.Tests.AssemblyInfo.cs

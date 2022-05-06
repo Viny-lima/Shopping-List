@@ -1,2 +1,0 @@
-C:\Users\vinicius.fl\source\repos\ShoppingList\ShoppingList.ExtendedScreens\ShoppingList.ExtendedScreens.csproj;x86
-C:\Users\vinicius.fl\source\repos\ShoppingList\ShoppingList\ShoppingList.wapproj;x86

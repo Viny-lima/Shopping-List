@@ -11,3 +11,16 @@ C:\Users\vinicius.fl\source\repos\ShoppingList\ShoppingList.Service\obj\x86\Debu
 C:\Users\vinicius.fl\source\repos\ShoppingList\ShoppingList.Service\obj\x86\Debug\netcoreapp3.1\ShoppingList.Service.csproj.CopyComplete
 C:\Users\vinicius.fl\source\repos\ShoppingList\ShoppingList.Service\obj\x86\Debug\netcoreapp3.1\ShoppingList.Service.dll
 C:\Users\vinicius.fl\source\repos\ShoppingList\ShoppingList.Service\obj\x86\Debug\netcoreapp3.1\ShoppingList.Service.pdb
+C:\MySource\ShoppingList\ShoppingList.Service\bin\x86\Debug\netcoreapp3.1\ShoppingList.Service.deps.json
+C:\MySource\ShoppingList\ShoppingList.Service\bin\x86\Debug\netcoreapp3.1\ShoppingList.Service.dll
+C:\MySource\ShoppingList\ShoppingList.Service\bin\x86\Debug\netcoreapp3.1\ShoppingList.Service.pdb
+C:\MySource\ShoppingList\ShoppingList.Service\bin\x86\Debug\netcoreapp3.1\ShoppingList.Domain.dll
+C:\MySource\ShoppingList\ShoppingList.Service\bin\x86\Debug\netcoreapp3.1\ShoppingList.Domain.pdb
+C:\MySource\ShoppingList\ShoppingList.Service\obj\x86\Debug\netcoreapp3.1\ShoppingList.Service.csproj.AssemblyReference.cache
+C:\MySource\ShoppingList\ShoppingList.Service\obj\x86\Debug\netcoreapp3.1\ShoppingList.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\MySource\ShoppingList\ShoppingList.Service\obj\x86\Debug\netcoreapp3.1\ShoppingList.Service.AssemblyInfoInputs.cache
+C:\MySource\ShoppingList\ShoppingList.Service\obj\x86\Debug\netcoreapp3.1\ShoppingList.Service.AssemblyInfo.cs
+C:\MySource\ShoppingList\ShoppingList.Service\obj\x86\Debug\netcoreapp3.1\ShoppingList.Service.csproj.CoreCompileInputs.cache
+C:\MySource\ShoppingList\ShoppingList.Service\obj\x86\Debug\netcoreapp3.1\ShoppingList.Service.csproj.CopyComplete
+C:\MySource\ShoppingList\ShoppingList.Service\obj\x86\Debug\netcoreapp3.1\ShoppingList.Service.dll
+C:\MySource\ShoppingList\ShoppingList.Service\obj\x86\Debug\netcoreapp3.1\ShoppingList.Service.pdb
