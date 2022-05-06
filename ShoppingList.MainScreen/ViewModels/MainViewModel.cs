@@ -18,14 +18,24 @@ namespace ShoppingList.MainScreen.ViewModels
         public MainViewModel(IProductService service)
         {
             this.service = service;
-            StartUpListProducts();
+            ListProducts = new ObservableCollection<Product>();
+            StartUpListProductsWithTwoLastItens();
         }
 
-        private void StartUpListProducts()
+        private void StartUpListProductsWithTwoLastItens()
         {
-            foreach (var item in service.FindAll().Result)
+            var count = 0;
+            var listProducts = service.FindAll().Result.ToList();
+            int indexLastButOne = listProducts.Count - 2;
+
+            foreach (var item in listProducts)
             {
-                ListProducts.Add(item);
+                if (count >= indexLastButOne)
+                {
+                    ListProducts.Add(item);
+                }    
+                
+                count++;
             }
         }
     }

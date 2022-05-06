@@ -43,6 +43,12 @@
 
             </Border>
         </DataTemplate>
+        <Style TargetType="Button" x:Key="NavigationButton">
+            <Setter Property="Background" Value="#eeeeeeee"/>
+            <Setter Property="Padding" Value="8"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Margin" Value="10 0"/>
+        </Style>
     </Window.Resources>
 
     <Grid>
@@ -51,13 +57,42 @@
             <ColumnDefinition Width="2*"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+
+        <Image Source="./Images/background-list.jpg"
+               Grid.ColumnSpan="3"
+               Grid.RowSpan="2"
+               Stretch="UniformToFill"
+               />
 
         <ListView Grid.Column="1"
                   HorizontalAlignment="Center"
                   Padding="20"
                   BorderThickness="0"
                   ItemTemplate="{StaticResource ResourceKey=Product}"
-                  ItemsSource="{Binding }"
+                  ItemsSource="{Binding ListProducts}"
+                  Background="Transparent"
                   />
+
+        <StackPanel Orientation="Horizontal" 
+                    Grid.Row="1"
+                    Grid.ColumnSpan="3"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Margin="0 20">
+            <Button Name="SeeAllProductsButton" 
+                    Content="See all Products" 
+                    Style="{StaticResource NavigationButton}"
+                    />
+            <Button Name="RegisterProductButton" 
+                    Content="Register Product" 
+                    Style="{StaticResource NavigationButton}"
+                    />
+        </StackPanel>
+
+
     </Grid>
 </Window>
