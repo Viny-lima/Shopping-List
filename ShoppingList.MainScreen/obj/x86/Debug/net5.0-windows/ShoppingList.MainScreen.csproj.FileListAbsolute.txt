@@ -64,3 +64,4 @@ C:\MySource\ShoppingList\ShoppingList.MainScreen\obj\x86\Debug\net5.0-windows\Sh
 C:\MySource\ShoppingList\ShoppingList.MainScreen\obj\x86\Debug\net5.0-windows\ref\ShoppingList.MainScreen.dll
 C:\MySource\ShoppingList\ShoppingList.MainScreen\obj\x86\Debug\net5.0-windows\ShoppingList.MainScreen.pdb
 C:\MySource\ShoppingList\ShoppingList.MainScreen\obj\x86\Debug\net5.0-windows\ShoppingList.MainScreen.genruntimeconfig.cache
+C:\MySource\ShoppingList\ShoppingList.MainScreen\obj\x86\Debug\net5.0-windows\GeneratedInternalTypeHelper.g.cs

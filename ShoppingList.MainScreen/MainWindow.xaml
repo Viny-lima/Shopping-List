@@ -5,11 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ShoppingList.MainScreen"
         xmlns:domain="clr-namespace:ShoppingList.Domain.Entities;assembly=ShoppingList.Domain"
+        xmlns:converts="clr-namespace:ShoppingList.MainScreen.Converters"
         mc:Ignorable="d"
         Title="MainWindow" 
         Height="450" 
         Width="800">
     <Window.Resources>
+        
+        <converts:DateTimeFormStringConverter x:Key="ConvertDateTime"/>
+        
         <DataTemplate x:Key="Product" DataType="{x:Type domain:Product}">
             <Border Background="#eeeeee"
                     Padding="10">
@@ -29,7 +33,7 @@
                                 FontSize="20"
                                 Margin="0 0 10 0"
                                 />
-                        <TextBlock  Text="{Binding registrationData}"
+                        <TextBlock Text="{Binding RegistrationData, Converter = {StaticResource ConvertDateTime}}"
                                 FontSize="10"
                                 FontWeight="SemiBold"
                                 VerticalAlignment="Bottom"
