@@ -21,14 +21,14 @@ namespace ShoppingList.Domain.Tests
                 Id = id,
                 Name = name,
                 Description = description,
-                registrationData = data
+                RegistrationData = data
             };
 
             //Assert
             Assert.Equal(id, product.Id);
             Assert.Equal(name, product.Name);
             Assert.Equal(description, product.Description);
-            Assert.Equal(data, product.registrationData);
+            Assert.Equal(data, product.RegistrationData);
 
         }
     }

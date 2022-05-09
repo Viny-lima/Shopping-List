@@ -16,6 +16,7 @@ namespace ShoppingList.Data.DAO
         public ProductDAOEntity()
         {
             this._context = new ShoppingListContext();
+            _context.Database.EnsureCreated();
         }
 
         public async Task Create(Product product)

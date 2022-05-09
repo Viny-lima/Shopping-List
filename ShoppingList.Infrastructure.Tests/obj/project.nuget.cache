@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "B9vOatojr5TaK5qQzul7ssZMlk9zq+0/bnYHbvwTy4IrTb6Te8isMfv8UY0qyZ1eOolSDboEf5czB6OR7siAFA==",
+  "dgSpecHash": "gdGYX1YK4JCLHvFPhrQKbvqVOac/fPlsUZGKOMwwS8N0chU6fseWHA3Do/6+v7MQrfwt3fJrYSmkCR0ruEsQ6g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vinicius.fl\\source\\repos\\ShoppingList\\ShoppingList.Infrastructure.Tests\\ShoppingList.Infrastructure.Tests.csproj",
+  "projectFilePath": "C:\\MySource\\ShoppingList\\ShoppingList.Infrastructure.Tests\\ShoppingList.Infrastructure.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vinicius.fl\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\vinicius.fl\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

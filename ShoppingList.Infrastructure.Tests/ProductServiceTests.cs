@@ -47,7 +47,7 @@ namespace ShoppingList.Infrastructure.Tests
                 {
                     Name = $"Product Test {i}",
                     Description = $"Description test {1}",
-                    registrationData = DateTime.Today
+                    RegistrationData = DateTime.Today
                 };
 
                 _repository.Add(newProduct);
