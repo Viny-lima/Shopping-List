@@ -7,7 +7,7 @@
         xmlns:domain="clr-namespace:ShoppingList.Domain.Entities;assembly=ShoppingList.Domain"
         xmlns:converts="clr-namespace:ShoppingList.MainScreen.Converters"
         mc:Ignorable="d"
-        Title="MainWindow" 
+        Title="Shopping List" 
         Height="450" 
         Width="800">
     <Window.Resources>
