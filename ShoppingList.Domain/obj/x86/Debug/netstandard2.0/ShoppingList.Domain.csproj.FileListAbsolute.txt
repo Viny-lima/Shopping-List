@@ -7,3 +7,14 @@ C:\Users\vinicius.fl\source\repos\ShoppingList\ShoppingList.Domain\obj\x86\Debug
 C:\Users\vinicius.fl\source\repos\ShoppingList\ShoppingList.Domain\obj\x86\Debug\netstandard2.0\ShoppingList.Domain.csproj.CoreCompileInputs.cache
 C:\Users\vinicius.fl\source\repos\ShoppingList\ShoppingList.Domain\obj\x86\Debug\netstandard2.0\ShoppingList.Domain.dll
 C:\Users\vinicius.fl\source\repos\ShoppingList\ShoppingList.Domain\obj\x86\Debug\netstandard2.0\ShoppingList.Domain.pdb
+C:\Users\vinicius.fl\source\repos\ShoppingList\ShoppingList.Domain\obj\x86\Debug\netstandard2.0\ShoppingList.Domain.csproj.AssemblyReference.cache
+C:\MySource\ShoppingList\ShoppingList.Domain\bin\x86\Debug\netstandard2.0\ShoppingList.Domain.deps.json
+C:\MySource\ShoppingList\ShoppingList.Domain\bin\x86\Debug\netstandard2.0\ShoppingList.Domain.dll
+C:\MySource\ShoppingList\ShoppingList.Domain\bin\x86\Debug\netstandard2.0\ShoppingList.Domain.pdb
+C:\MySource\ShoppingList\ShoppingList.Domain\obj\x86\Debug\netstandard2.0\ShoppingList.Domain.csproj.AssemblyReference.cache
+C:\MySource\ShoppingList\ShoppingList.Domain\obj\x86\Debug\netstandard2.0\ShoppingList.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\MySource\ShoppingList\ShoppingList.Domain\obj\x86\Debug\netstandard2.0\ShoppingList.Domain.AssemblyInfoInputs.cache
+C:\MySource\ShoppingList\ShoppingList.Domain\obj\x86\Debug\netstandard2.0\ShoppingList.Domain.AssemblyInfo.cs
+C:\MySource\ShoppingList\ShoppingList.Domain\obj\x86\Debug\netstandard2.0\ShoppingList.Domain.csproj.CoreCompileInputs.cache
+C:\MySource\ShoppingList\ShoppingList.Domain\obj\x86\Debug\netstandard2.0\ShoppingList.Domain.dll
+C:\MySource\ShoppingList\ShoppingList.Domain\obj\x86\Debug\netstandard2.0\ShoppingList.Domain.pdb

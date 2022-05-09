@@ -6959,11 +6959,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vinicius.fl\\source\\repos\\ShoppingList\\ShoppingList.Infrastructure.Tests\\ShoppingList.Infrastructure.Tests.csproj",
+      "projectUniqueName": "C:\\MySource\\ShoppingList\\ShoppingList.Infrastructure.Tests\\ShoppingList.Infrastructure.Tests.csproj",
       "projectName": "ShoppingList.Infrastructure.Tests",
-      "projectPath": "C:\\Users\\vinicius.fl\\source\\repos\\ShoppingList\\ShoppingList.Infrastructure.Tests\\ShoppingList.Infrastructure.Tests.csproj",
+      "projectPath": "C:\\MySource\\ShoppingList\\ShoppingList.Infrastructure.Tests\\ShoppingList.Infrastructure.Tests.csproj",
       "packagesPath": "C:\\Users\\vinicius.fl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vinicius.fl\\source\\repos\\ShoppingList\\ShoppingList.Infrastructure.Tests\\obj\\",
+      "outputPath": "C:\\MySource\\ShoppingList\\ShoppingList.Infrastructure.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6984,8 +6984,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\vinicius.fl\\source\\repos\\ShoppingList\\ShoppingList.Data\\ShoppingList.Data.csproj": {
-              "projectPath": "C:\\Users\\vinicius.fl\\source\\repos\\ShoppingList\\ShoppingList.Data\\ShoppingList.Data.csproj"
+            "C:\\MySource\\ShoppingList\\ShoppingList.Data\\ShoppingList.Data.csproj": {
+              "projectPath": "C:\\MySource\\ShoppingList\\ShoppingList.Data\\ShoppingList.Data.csproj"
             }
           }
         }
@@ -7036,7 +7036,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
       }
     }
   }

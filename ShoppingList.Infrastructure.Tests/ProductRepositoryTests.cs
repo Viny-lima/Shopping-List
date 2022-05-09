@@ -43,7 +43,7 @@ namespace ShoppingList.Infrastructure.Tests
                 Id = 1,
                 Name = "Pasta de Dente",
                 Description = "Colgate - Total 12 horas de proteção",
-                registrationData = DateTime.Today
+                RegistrationData = DateTime.Today
             };
 
             //Act
@@ -54,7 +54,7 @@ namespace ShoppingList.Infrastructure.Tests
 
             Assert.Equal(expected.Name, newProduct.Name);
             Assert.Equal(expected.Description, newProduct.Description);
-            Assert.Equal(expected.registrationData, newProduct.registrationData);
+            Assert.Equal(expected.RegistrationData, newProduct.RegistrationData);
         }
 
         [Fact]
@@ -66,7 +66,7 @@ namespace ShoppingList.Infrastructure.Tests
                 Id = 5,
                 Name = "Pasta de Dente",
                 Description = "Colgate - Total 12 horas de proteção",
-                registrationData = DateTime.Today
+                RegistrationData = DateTime.Today
             };
 
             var product = _repository.Add(newProduct);
@@ -91,7 +91,7 @@ namespace ShoppingList.Infrastructure.Tests
                 {
                     Name = $"Product Test {i}",
                     Description = $"Description test {1}",
-                    registrationData = DateTime.Today
+                    RegistrationData = DateTime.Today
                 };
 
                 _repository.Add(newProduct);
@@ -125,7 +125,7 @@ namespace ShoppingList.Infrastructure.Tests
             {
                 Name = "Pipoca Doce",
                 Description = "Marca - Bokus",
-                registrationData = DateTime.Today
+                RegistrationData = DateTime.Today
             };
 
             var product = _repository.Add(newProduct).Result;

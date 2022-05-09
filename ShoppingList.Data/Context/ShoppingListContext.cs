@@ -26,8 +26,7 @@ namespace ShoppingList.Data.Connection
                 entity.HasKey(p => p.Id);
                 entity.Property(p => p.Name);
                 entity.Property(p => p.Description);
-                entity.Property(p => p.registrationData);
-                entity.Property(p => p.pathImage);
+                entity.Property(p => p.RegistrationData);
             });
 
             base.OnModelCreating(modelBuilder);
