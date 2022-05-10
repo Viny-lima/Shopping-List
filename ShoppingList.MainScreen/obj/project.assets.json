@@ -440,7 +440,7 @@
       },
       "ShoppingList.Service/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
+        "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "ShoppingList.Domain": "1.0.0"
         },
@@ -1110,11 +1110,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\MySource\\ShoppingList\\ShoppingList.MainScreen\\ShoppingList.MainScreen.csproj",
+      "projectUniqueName": "C:\\MySource\\Shopping-List\\ShoppingList.MainScreen\\ShoppingList.MainScreen.csproj",
       "projectName": "ShoppingList.MainScreen",
-      "projectPath": "C:\\MySource\\ShoppingList\\ShoppingList.MainScreen\\ShoppingList.MainScreen.csproj",
+      "projectPath": "C:\\MySource\\Shopping-List\\ShoppingList.MainScreen\\ShoppingList.MainScreen.csproj",
       "packagesPath": "C:\\Users\\vinicius.fl\\.nuget\\packages\\",
-      "outputPath": "C:\\MySource\\ShoppingList\\ShoppingList.MainScreen\\obj\\",
+      "outputPath": "C:\\MySource\\Shopping-List\\ShoppingList.MainScreen\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1135,14 +1135,14 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "C:\\MySource\\ShoppingList\\ShoppingList.Data\\ShoppingList.Data.csproj": {
-              "projectPath": "C:\\MySource\\ShoppingList\\ShoppingList.Data\\ShoppingList.Data.csproj"
+            "C:\\MySource\\Shopping-List\\ShoppingList.Data\\ShoppingList.Data.csproj": {
+              "projectPath": "C:\\MySource\\Shopping-List\\ShoppingList.Data\\ShoppingList.Data.csproj"
             },
-            "C:\\MySource\\ShoppingList\\ShoppingList.Domain\\ShoppingList.Domain.csproj": {
-              "projectPath": "C:\\MySource\\ShoppingList\\ShoppingList.Domain\\ShoppingList.Domain.csproj"
+            "C:\\MySource\\Shopping-List\\ShoppingList.Domain\\ShoppingList.Domain.csproj": {
+              "projectPath": "C:\\MySource\\Shopping-List\\ShoppingList.Domain\\ShoppingList.Domain.csproj"
             },
-            "C:\\MySource\\ShoppingList\\ShoppingList.Service\\ShoppingList.Service.csproj": {
-              "projectPath": "C:\\MySource\\ShoppingList\\ShoppingList.Service\\ShoppingList.Service.csproj"
+            "C:\\MySource\\Shopping-List\\ShoppingList.Service\\ShoppingList.Service.csproj": {
+              "projectPath": "C:\\MySource\\Shopping-List\\ShoppingList.Service\\ShoppingList.Service.csproj"
             }
           }
         }

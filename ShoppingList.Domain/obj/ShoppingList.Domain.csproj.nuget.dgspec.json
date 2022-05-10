@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\MySource\\ShoppingList\\ShoppingList.Domain\\ShoppingList.Domain.csproj": {}
+    "C:\\MySource\\Shopping-List\\ShoppingList.Domain\\ShoppingList.Domain.csproj": {}
   },
   "projects": {
-    "C:\\MySource\\ShoppingList\\ShoppingList.Domain\\ShoppingList.Domain.csproj": {
+    "C:\\MySource\\Shopping-List\\ShoppingList.Domain\\ShoppingList.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MySource\\ShoppingList\\ShoppingList.Domain\\ShoppingList.Domain.csproj",
+        "projectUniqueName": "C:\\MySource\\Shopping-List\\ShoppingList.Domain\\ShoppingList.Domain.csproj",
         "projectName": "ShoppingList.Domain",
-        "projectPath": "C:\\MySource\\ShoppingList\\ShoppingList.Domain\\ShoppingList.Domain.csproj",
+        "projectPath": "C:\\MySource\\Shopping-List\\ShoppingList.Domain\\ShoppingList.Domain.csproj",
         "packagesPath": "C:\\Users\\vinicius.fl\\.nuget\\packages\\",
-        "outputPath": "C:\\MySource\\ShoppingList\\ShoppingList.Domain\\obj\\",
+        "outputPath": "C:\\MySource\\Shopping-List\\ShoppingList.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

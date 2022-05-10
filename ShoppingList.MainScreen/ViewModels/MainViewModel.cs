@@ -1,11 +1,8 @@
 ﻿using ShoppingList.Domain.Entities;
 using ShoppingList.Domain.Interfaces;
-using System;
-using System.Collections.Generic;
+using ShoppingList.Domain.ViewModels;
 using System.Collections.ObjectModel;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ShoppingList.MainScreen.ViewModels
 {
