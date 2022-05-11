@@ -20,12 +20,9 @@ namespace ShoppingList.Screens.ViewModels
         {
             this.service = service;
             ListProducts = new ObservableCollection<ProductItemViewModel>();
-
-            //Add Itens
-            StartUpListProducts();
         }
 
-        private void StartUpListProducts()
+        public void StartUpListProducts()
         {
             var listProducts = service.FindAll().Result.ToList();
 

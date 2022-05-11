@@ -4,17 +4,16 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:ShoppingList.Screens.Views"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
-    xmlns:converters="using:ShoppingList.Screens.Converters" 
-    xmlns:domain="using:ShoppingList.Domain.Entities"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:viewModels="using:ShoppingList.Screens.ViewModels"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Page.Resources>        
 
-        <DataTemplate x:Key="ProductTemplate" x:DataType="domain:Product">
+        <DataTemplate x:Key="ProductTemplate" x:DataType="viewModels:ProductItemViewModel">
 
-            <Border Background="#eeeeee" Padding="10">
+            <Border Background="#eeeeee" Padding="10" Margin="0 0 0 10">
                 <Grid Width="300" 
                   Height="100">
 
@@ -25,19 +24,19 @@
 
                     <StackPanel Orientation="Horizontal">
 
-                        <TextBlock  Text="{Binding Name}"
+                        <TextBlock  Text="{x:Bind Name}"
                                 FontWeight="SemiBold"
                                 FontSize="20"
                                 Margin="0 0 10 0"
                                 />
-                        <TextBlock Text="{Binding RegistrationData, Converter = {StaticResource ConvertDateTime}}"
+                        <TextBlock Text="{x:Bind RegistrationData, Converter = {StaticResource ConvertDateTime}}"
                                 FontSize="10"
                                 FontWeight="SemiBold"
                                 VerticalAlignment="Bottom"
                                 Padding="0 0 0 4"/>
                     </StackPanel>
 
-                    <TextBlock Text="{Binding Description}"
+                    <TextBlock Text="{x:Bind Description}"
                            TextWrapping="Wrap"
                            Grid.Row="2"/>
                 </Grid>
@@ -74,5 +73,7 @@
                   ItemsSource="{x:Bind ViewModel.ListProducts}"
                   Background="Transparent"
                   />     
+        
+        
     </Grid>
 </Page>

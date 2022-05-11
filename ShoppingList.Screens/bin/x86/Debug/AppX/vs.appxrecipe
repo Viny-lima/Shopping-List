@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\MySource\Shopping-List\ShoppingList.Screens\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-05-10T20:27:36.998</Modified>
+      <Modified>2022-05-11T20:20:46.356</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\MySource\Shopping-List\ShoppingList.Screens\bin\x86\Debug\ShoppingList.Screens.exe">
       <PackagePath>entrypoint\ShoppingList.Screens.exe</PackagePath>
-      <Modified>2022-05-10T20:27:34.842</Modified>
+      <Modified>2022-05-11T20:20:44.921</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vinicius.fl\.nuget\packages\microsoft.bcl.asyncinterfaces\1.1.1\lib\netstandard2.0\Microsoft.Bcl.AsyncInterfaces.dll">
       <PackagePath>Microsoft.Bcl.AsyncInterfaces.dll</PackagePath>
@@ -160,15 +160,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\MySource\Shopping-List\ShoppingList.Data\bin\x86\Debug\netstandard2.0\ShoppingList.Data.dll">
       <PackagePath>ShoppingList.Data.dll</PackagePath>
-      <Modified>2022-05-10T20:24:44.564</Modified>
+      <Modified>2022-05-11T19:39:44.890</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\MySource\Shopping-List\ShoppingList.Domain\bin\x86\Debug\netstandard2.0\ShoppingList.Domain.dll">
       <PackagePath>ShoppingList.Domain.dll</PackagePath>
-      <Modified>2022-05-10T20:24:43.405</Modified>
+      <Modified>2022-05-11T19:39:42.815</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\MySource\Shopping-List\ShoppingList.Service\bin\Debug\netstandard2.0\ShoppingList.Service.dll">
       <PackagePath>ShoppingList.Service.dll</PackagePath>
-      <Modified>2022-05-10T20:24:44.011</Modified>
+      <Modified>2022-05-11T19:39:44.172</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
@@ -218,19 +218,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\MySource\Shopping-List\ShoppingList.Screens\bin\x86\Debug\ShoppingList.Screens.xr.xml">
       <PackagePath>ShoppingList.Screens.xr.xml</PackagePath>
-      <Modified>2022-05-10T20:27:34.764</Modified>
+      <Modified>2022-05-11T20:20:44.842</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\MySource\Shopping-List\ShoppingList.Screens\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-05-10T20:26:40.471</Modified>
+      <Modified>2022-05-11T20:20:44.848</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\MySource\Shopping-List\ShoppingList.Screens\bin\x86\Debug\Resources\ProductResources.xbf">
       <PackagePath>Resources\ProductResources.xbf</PackagePath>
-      <Modified>2022-05-10T20:27:34.770</Modified>
+      <Modified>2022-05-11T20:20:44.848</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\MySource\Shopping-List\ShoppingList.Screens\bin\x86\Debug\Views\ProductsView.xbf">
       <PackagePath>Views\ProductsView.xbf</PackagePath>
-      <Modified>2022-05-10T20:27:34.771</Modified>
+      <Modified>2022-05-11T20:20:44.849</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -238,11 +238,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\MySource\Shopping-List\ShoppingList.Screens\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-05-10T20:27:35.584</Modified>
+      <Modified>2022-05-11T19:47:10.048</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\MySource\Shopping-List\ShoppingList.Screens\bin\x86\Debug\Core\ShoppingList.Screens.exe">
       <PackagePath>ShoppingList.Screens.exe</PackagePath>
-      <Modified>2022-05-10T20:27:36.559</Modified>
+      <Modified>2022-05-11T20:20:45.981</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

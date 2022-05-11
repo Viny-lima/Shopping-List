@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
+using ShoppingList.Data.Connection;
 using ShoppingList.Data.DAO;
 using ShoppingList.Data.Interfaces;
 using ShoppingList.Data.Repositories;
@@ -14,6 +15,7 @@ using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.Storage;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -26,15 +28,18 @@ namespace ShoppingList.Screens
 {
     sealed partial class App : Application
     {
-        private IServiceProvider provaider;
+        private static IServiceProvider _provider;
+        public static IProductService Service { get; private set; }
 
         public App()
         {
             this.InitializeComponent();
+            CreateDatabaseApp();
             this.Suspending += OnSuspending;
-            this.provaider = CreateServiceProvider();
 
-
+            //Dependecy Injection
+            _provider = CreateServiceProvider();
+            Service = _provider.GetRequiredService<IProductService>();
         }
 
         private IServiceProvider CreateServiceProvider()
@@ -46,6 +51,12 @@ namespace ShoppingList.Screens
             service.AddTransient<IProductService, ProductService>();
 
             return service.BuildServiceProvider();
+        }
+
+        private void CreateDatabaseApp()
+        {
+            var path = Path.Combine(ApplicationData.Current.LocalFolder.Path, "Database.db");
+            new ManagerDatabase(path).CreateDatabase();
         }
 
         protected override void OnLaunched(LaunchActivatedEventArgs e)
