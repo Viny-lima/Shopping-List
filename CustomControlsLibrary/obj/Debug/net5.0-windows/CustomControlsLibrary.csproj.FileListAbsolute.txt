@@ -1,0 +1,7 @@
+C:\MySource\Shopping-List\CustomControlsLibrary\obj\Debug\net5.0-windows\CustomControlsLibrary.csproj.AssemblyReference.cache
+C:\MySource\Shopping-List\CustomControlsLibrary\obj\Debug\net5.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\MySource\Shopping-List\CustomControlsLibrary\obj\Debug\net5.0-windows\CustomControlsLibrary_MarkupCompile.cache
+C:\MySource\Shopping-List\CustomControlsLibrary\obj\Debug\net5.0-windows\CustomControlsLibrary_MarkupCompile.lref
+C:\MySource\Shopping-List\CustomControlsLibrary\obj\Debug\net5.0-windows\CustomControlsLibrary.dll
+C:\MySource\Shopping-List\CustomControlsLibrary\obj\Debug\net5.0-windows\ref\CustomControlsLibrary.dll
+C:\MySource\Shopping-List\CustomControlsLibrary\obj\Debug\net5.0-windows\CustomControlsLibrary.pdb

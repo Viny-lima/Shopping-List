@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hRRtdNMRDZf/jnCjaaAsHMXIm1+7FRPkGdQkh92BdfdvzaVjRvoajZS3StWdnkqp+c0biWTArKxnXvwAL6AFBw==",
+  "dgSpecHash": "PdVtQF5OWgI7Qe/G3O43rLOb/34JVhcFl/Hj9KdRT0m3g0iQlC1EWJ1muRwXyo+Fq5CpYAbJaC+CWPRQeOKNHA==",
   "success": true,
-  "projectFilePath": "C:\\MySource\\ShoppingList\\ShoppingList.Domain\\ShoppingList.Domain.csproj",
+  "projectFilePath": "C:\\MySource\\Shopping-List\\ShoppingList.Domain\\ShoppingList.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vinicius.fl\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\vinicius.fl\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

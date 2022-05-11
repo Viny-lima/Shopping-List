@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
+using ShoppingList.Data.Connection;
 using ShoppingList.Data.DAO;
 using ShoppingList.Data.Interfaces;
 using ShoppingList.Data.Repositories;
@@ -6,11 +7,6 @@ using ShoppingList.Domain.Interfaces;
 using ShoppingList.MainScreen.ViewModels;
 using ShoppingList.Service.Services;
 using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows;
 
 namespace ShoppingList.MainScreen
@@ -25,6 +21,8 @@ namespace ShoppingList.MainScreen
 
         public App()
         {
+            CreateDatabaseApp();
+
             //Dependency Injection
             this._provider = CreateServiceProvider();
             this.productService = _provider.GetRequiredService<IProductService>();
@@ -44,6 +42,12 @@ namespace ShoppingList.MainScreen
             service.AddTransient<IProductService, ProductService>();
 
             return service.BuildServiceProvider();
+        }
+
+        private void CreateDatabaseApp()
+        {
+            var path = @"C:\Users\vinicius.fl\AppData\Local\Packages\2a79950d-679e-41a5-ba46-25a0a73d703a_k5bx3m1fq11y8\LocalState\Database.db";
+            new ManagerDatabase(path).CreateDatabase();
         }
 
     }

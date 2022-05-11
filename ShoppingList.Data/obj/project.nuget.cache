@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nGtdVg79cTCUVqklYb8wLat9Sp8UjsTc1lj9lFODdVDKBD7Jr1NIKfVAGAwROCGPGUe4Z2MdhECWo0TB5O5lVQ==",
+  "dgSpecHash": "eWGb6XfyHWg87SAeYYkJItGx2shkykKUnSWo7ct2PqrHC894F/Hlr0dN4FharSY/o+yUmntJF5h45SQloYn+zg==",
   "success": true,
-  "projectFilePath": "C:\\MySource\\ShoppingList\\ShoppingList.Data\\ShoppingList.Data.csproj",
+  "projectFilePath": "C:\\MySource\\Shopping-List\\ShoppingList.Data\\ShoppingList.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vinicius.fl\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\vinicius.fl\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",

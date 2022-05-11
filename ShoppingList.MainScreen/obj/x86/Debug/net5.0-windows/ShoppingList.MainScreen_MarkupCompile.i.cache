@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\MySource\ShoppingList\ShoppingList.MainScreen\obj\x86\Debug\net5.0-windows\
+C:\MySource\Shopping-List\ShoppingList.MainScreen\obj\x86\Debug\net5.0-windows\
 ShoppingList.MainScreen
 none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
-C:\MySource\ShoppingList\ShoppingList.MainScreen\App.xaml
-11407045341
+C:\MySource\Shopping-List\ShoppingList.MainScreen\App.xaml
+2-1111602519
 
-8-1929319217
-220-436537492
-MainWindow.xaml;
+7-1014912140
+220-829284992
+MainWindow.xaml;Resources\ProductResources.xaml;
 
-True
+False
 

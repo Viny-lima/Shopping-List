@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\MySource\\ShoppingList\\ShoppingList.Infrastructure.Tests\\ShoppingList.Infrastructure.Tests.csproj": {}
+    "C:\\MySource\\Shopping-List\\ShoppingList.Infrastructure.Tests\\ShoppingList.Infrastructure.Tests.csproj": {}
   },
   "projects": {
-    "C:\\MySource\\ShoppingList\\ShoppingList.Data\\ShoppingList.Data.csproj": {
+    "C:\\MySource\\Shopping-List\\ShoppingList.Data\\ShoppingList.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MySource\\ShoppingList\\ShoppingList.Data\\ShoppingList.Data.csproj",
+        "projectUniqueName": "C:\\MySource\\Shopping-List\\ShoppingList.Data\\ShoppingList.Data.csproj",
         "projectName": "ShoppingList.Data",
-        "projectPath": "C:\\MySource\\ShoppingList\\ShoppingList.Data\\ShoppingList.Data.csproj",
+        "projectPath": "C:\\MySource\\Shopping-List\\ShoppingList.Data\\ShoppingList.Data.csproj",
         "packagesPath": "C:\\Users\\vinicius.fl\\.nuget\\packages\\",
-        "outputPath": "C:\\MySource\\ShoppingList\\ShoppingList.Data\\obj\\",
+        "outputPath": "C:\\MySource\\Shopping-List\\ShoppingList.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\MySource\\ShoppingList\\ShoppingList.Domain\\ShoppingList.Domain.csproj": {
-                "projectPath": "C:\\MySource\\ShoppingList\\ShoppingList.Domain\\ShoppingList.Domain.csproj"
+              "C:\\MySource\\Shopping-List\\ShoppingList.Domain\\ShoppingList.Domain.csproj": {
+                "projectPath": "C:\\MySource\\Shopping-List\\ShoppingList.Domain\\ShoppingList.Domain.csproj"
               }
             }
           }
@@ -77,14 +77,14 @@
         }
       }
     },
-    "C:\\MySource\\ShoppingList\\ShoppingList.Domain\\ShoppingList.Domain.csproj": {
+    "C:\\MySource\\Shopping-List\\ShoppingList.Domain\\ShoppingList.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MySource\\ShoppingList\\ShoppingList.Domain\\ShoppingList.Domain.csproj",
+        "projectUniqueName": "C:\\MySource\\Shopping-List\\ShoppingList.Domain\\ShoppingList.Domain.csproj",
         "projectName": "ShoppingList.Domain",
-        "projectPath": "C:\\MySource\\ShoppingList\\ShoppingList.Domain\\ShoppingList.Domain.csproj",
+        "projectPath": "C:\\MySource\\Shopping-List\\ShoppingList.Domain\\ShoppingList.Domain.csproj",
         "packagesPath": "C:\\Users\\vinicius.fl\\.nuget\\packages\\",
-        "outputPath": "C:\\MySource\\ShoppingList\\ShoppingList.Domain\\obj\\",
+        "outputPath": "C:\\MySource\\Shopping-List\\ShoppingList.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -142,14 +142,14 @@
         }
       }
     },
-    "C:\\MySource\\ShoppingList\\ShoppingList.Infrastructure.Tests\\ShoppingList.Infrastructure.Tests.csproj": {
+    "C:\\MySource\\Shopping-List\\ShoppingList.Infrastructure.Tests\\ShoppingList.Infrastructure.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MySource\\ShoppingList\\ShoppingList.Infrastructure.Tests\\ShoppingList.Infrastructure.Tests.csproj",
+        "projectUniqueName": "C:\\MySource\\Shopping-List\\ShoppingList.Infrastructure.Tests\\ShoppingList.Infrastructure.Tests.csproj",
         "projectName": "ShoppingList.Infrastructure.Tests",
-        "projectPath": "C:\\MySource\\ShoppingList\\ShoppingList.Infrastructure.Tests\\ShoppingList.Infrastructure.Tests.csproj",
+        "projectPath": "C:\\MySource\\Shopping-List\\ShoppingList.Infrastructure.Tests\\ShoppingList.Infrastructure.Tests.csproj",
         "packagesPath": "C:\\Users\\vinicius.fl\\.nuget\\packages\\",
-        "outputPath": "C:\\MySource\\ShoppingList\\ShoppingList.Infrastructure.Tests\\obj\\",
+        "outputPath": "C:\\MySource\\Shopping-List\\ShoppingList.Infrastructure.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -170,8 +170,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\MySource\\ShoppingList\\ShoppingList.Data\\ShoppingList.Data.csproj": {
-                "projectPath": "C:\\MySource\\ShoppingList\\ShoppingList.Data\\ShoppingList.Data.csproj"
+              "C:\\MySource\\Shopping-List\\ShoppingList.Data\\ShoppingList.Data.csproj": {
+                "projectPath": "C:\\MySource\\Shopping-List\\ShoppingList.Data\\ShoppingList.Data.csproj"
               }
             }
           }
