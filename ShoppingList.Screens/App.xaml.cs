@@ -81,7 +81,7 @@ namespace ShoppingList.Screens
             {
                 if (rootFrame.Content == null)
                 {
-                    rootFrame.Navigate(typeof(ProductsView), e.Arguments);
+                    rootFrame.Navigate(typeof(ProductsPage), e.Arguments);
                 }
 
                 Window.Current.Activate();

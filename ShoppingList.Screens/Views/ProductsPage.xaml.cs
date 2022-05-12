@@ -17,11 +17,11 @@ using Windows.UI.Xaml.Navigation;
 
 namespace ShoppingList.Screens.Views
 {
-    public sealed partial class ProductsView : Page
+    public sealed partial class ProductsPage : Page
     {
         public ProductsViewModel ViewModel;
 
-        public ProductsView()
+        public ProductsPage()
         {
             this.InitializeComponent();            
         }

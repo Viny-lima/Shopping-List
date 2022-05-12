@@ -125,8 +125,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\ProductItemViewModel.cs" />
     <Compile Include="ViewModels\ProductsViewModel.cs" />
-    <Compile Include="Views\ProductsView.xaml.cs">
-      <DependentUpon>ProductsView.xaml</DependentUpon>
+    <Compile Include="ViewModels\ProductUpdateViewModel.cs" />
+    <Compile Include="Views\ProductsPage.xaml.cs">
+      <DependentUpon>ProductsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ProductUpdateView.xaml.cs">
+      <DependentUpon>ProductUpdateView.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -161,7 +165,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Views\ProductsView.xaml">
+    <Page Include="Views\ProductsPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ProductUpdateView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
