@@ -1,4 +1,4 @@
-﻿<UserControl
+﻿<UserControl x:ConnectionId='1'
     x:Class="ShoppingList.Screens.Views.ProductUpdateView"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -9,7 +9,8 @@
     d:DesignHeight="400"
     d:DesignWidth="400">
 
-    <Grid Background="White">
+    <Grid Background="White"
+          Padding="10">
 
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
@@ -22,28 +23,35 @@
         <Button Content="ADD NEW PRODUCT" 
                 Grid.Row="1"
                 HorizontalAlignment="Right"
-                Margin="10 0"
-                Style="{StaticResource NavigationButton}"/>
+                Style="{StaticResource NavigationButton}"
+                Background="#85CB33"
+                Foreground="White"
+                FontWeight="SemiBold"
+                Margin="0"/>
 
         <StackPanel Orientation="Horizontal" 
                     VerticalAlignment="Bottom"
-                    Grid.Row="1">
-            <TextBox Text="Product" Style="{StaticResource ProductTitleTextBox}"/>
-            <TextBlock Text="05/12/2022" Style="{StaticResource ProductDataRegister}"/>
+                    Grid.Row="1"
+                    Margin="0 10">
+            <TextBox x:ConnectionId='5'                              Style="{StaticResource ProductTitleTextBox}"/>
+            <TextBox x:ConnectionId='6'                                Style="{StaticResource ProductTitleTextBox}"/>
+            <TextBlock x:ConnectionId='7'                                                                                        Style="{StaticResource ProductDataRegister}"/>
         </StackPanel>
 
-        <TextBox Text="Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,  when an unknown printer took a galley of type and scrambled it to make a  type specimen book." 
-                   Style="{StaticResource ProductDescriptionTextBox}"
-                   Grid.Row="2"/>
+        <TextBox x:ConnectionId='2'                                          
+                    Style="{StaticResource ProductDescriptionTextBox}"
+                    Grid.Row="2"/>
 
         <StackPanel Grid.Row="3" Orientation="Horizontal">
-            <Button x:ConnectionId='2' Name="SeeAllProductsButton" 
-                    Content="See all Products" 
+            <Button x:ConnectionId='3' Name="UpdateButton" 
+                    Content="Update" 
                     Style="{StaticResource NavigationButton}"
+                                                     
                     />
-            <Button x:ConnectionId='3' Name="RegisterProductButton" 
-                    Content="Register Product" 
+            <Button x:ConnectionId='4' Name="DeleteButton" 
+                    Content="Delete" 
                     Style="{StaticResource NavigationButton}"
+                                                     
                     />
         </StackPanel>
 

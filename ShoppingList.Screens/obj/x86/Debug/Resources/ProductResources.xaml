@@ -27,10 +27,12 @@
         <Setter Property="FontWeight" Value="SemiBold"/>
         <Setter Property="FontSize" Value="20"/>
         <Setter Property="Margin" Value="0 0 10 0"/>
+        <Setter Property="BorderThickness" Value="1"/>
     </Style>
 
     <Style TargetType="TextBox" x:Key="ProductDescriptionTextBox">
         <Setter Property="TextWrapping" Value="Wrap"/>
+        <Setter Property="BorderThickness" Value="1"/>
     </Style>
 
     <Style TargetType="Button" x:Key="NavigationButton">

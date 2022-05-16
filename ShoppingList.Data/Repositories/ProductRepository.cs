@@ -29,7 +29,7 @@ namespace ShoppingList.Data.Repositories
         public async Task Delete(Product product)
         {
             await productDAO.Delete(product);
-        }
+        }        
 
         public async Task<IList<Product>> FindAll()
         {
@@ -51,6 +51,11 @@ namespace ShoppingList.Data.Repositories
         public async Task Update(Product product)
         {
             await productDAO.Update(product);
+        }
+
+        public void Dispose()
+        {
+            productDAO.Dispose();
         }
     }
 }

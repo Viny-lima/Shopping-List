@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = ShoppingList.MainScreen
-build_property.ProjectDir = C:\MySource\ShoppingList\ShoppingList.MainScreen\
+build_property.ProjectDir = C:\MySource\Shopping-List\ShoppingList.MainScreen\

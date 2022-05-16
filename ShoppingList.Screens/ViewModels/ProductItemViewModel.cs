@@ -1,5 +1,8 @@
-﻿using ShoppingList.Domain.Entities;
+﻿using Microsoft.Toolkit.Mvvm.ComponentModel;
+using ShoppingList.Domain.Entities;
+using ShoppingList.Domain.Interfaces;
 using ShoppingList.Domain.ViewModels;
+using ShoppingList.Screens.Events;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,9 +11,18 @@ using System.Threading.Tasks;
 
 namespace ShoppingList.Screens.ViewModels
 {
-    public class ProductItemViewModel : ViewModelBase
+    public class ProductItemViewModel : ObservableObject
     {
-        public int Id { get; set; }
+        private int _id;
+        public int Id
+        {
+            get { return _id; }
+            set
+            {
+                SetProperty(ref _id, value);
+            }
+        }
+
 
         private string _name;
         public string Name
@@ -18,8 +30,8 @@ namespace ShoppingList.Screens.ViewModels
             get { return _name; }
             set 
             { 
-                _name = value;
-                OnPropertyChanged(nameof(Name));
+                SetProperty(ref _name, value);
+
             }
         }
 
@@ -28,9 +40,8 @@ namespace ShoppingList.Screens.ViewModels
         {
             get { return _description; }
             set 
-            { 
-                _description = value;
-                OnPropertyChanged(nameof(Description));
+            {
+                SetProperty(ref _description, value);
             }
         }
 
@@ -40,25 +51,57 @@ namespace ShoppingList.Screens.ViewModels
             get { return _registrationData; }
             set 
             { 
-                _registrationData = value;
-                OnPropertyChanged(nameof(RegistrationData));
+                SetProperty(ref _registrationData, value);
+
             }
-        }
+        }      
 
-        public ProductItemViewModel()
+        public ProductItemViewModel() { }
+
+        public ProductItemViewModel(int id, string name, string description, DateTime registrationData) 
         {
-
+            Id = id;
+            Name = name;
+            Description = description;
+            RegistrationData = registrationData;
         }
-
-        public ProductItemViewModel(Product product)
+        
+        public static ProductItemViewModel Create(Product product)
         {
-            Id = product.Id;
-            Name = product.Name;
-            Description = product.Description;
-            RegistrationData = product.RegistrationData;
+            var productItemViewModel = new ProductItemViewModel(
+
+                product.Id,
+                product.Name,
+                product.Description,
+                product.RegistrationData
+
+            );
+
+            return productItemViewModel;
         }
 
+        public Product ForProduct()
+        {
+            var productItemViewModel = new Product
+            {
+                Id = this.Id,
+                Name = this.Name,
+                Description = this.Description,
+                RegistrationData = this.RegistrationData
+            };
 
+            return productItemViewModel;
+        }
+
+        public void Update()
+        {
+            ShoppingListEvents.OnUpdateProduct(ForProduct());
+        }
+
+        public void Delete()
+        {
+            ShoppingListEvents.OnDeleteProduct(ForProduct());
+        }
 
     }
 }

@@ -33,12 +33,12 @@
                     VerticalAlignment="Bottom"
                     Grid.Row="1"
                     Margin="0 10">
-            <TextBox Text="{x:Bind ViewModel.Product.Id}" Style="{StaticResource ProductTitleTextBox}"/>
-            <TextBox Text="{x:Bind ViewModel.Product.Name}" Style="{StaticResource ProductTitleTextBox}"/>
-            <TextBlock Text="{x:Bind ViewModel.Product.RegistrationData, Converter={StaticResource ConvertDateTime}}" Style="{StaticResource ProductDataRegister}"/>
+            <TextBox Text="{x:Bind ViewModel.Id}" Style="{StaticResource ProductTitleTextBox}"/>
+            <TextBox Text="{x:Bind ViewModel.Name}" Style="{StaticResource ProductTitleTextBox}"/>
+            <TextBlock Text="{x:Bind ViewModel.RegistrationData, Converter={StaticResource ConvertDateTime}}" Style="{StaticResource ProductDataRegister}"/>
         </StackPanel>
 
-        <TextBox    Text="{x:Bind ViewModel.Product.Description}" 
+        <TextBox    Text="{x:Bind ViewModel.Description}" 
                     Style="{StaticResource ProductDescriptionTextBox}"
                     Grid.Row="2"/>
 
@@ -46,12 +46,12 @@
             <Button Name="UpdateButton" 
                     Content="Update" 
                     Style="{StaticResource NavigationButton}"
-                    Click="{x:Bind ViewModel.UpdateProductSelected}"
+                    Click="{x:Bind ViewModel.Update}"
                     />
             <Button Name="DeleteButton" 
                     Content="Delete" 
                     Style="{StaticResource NavigationButton}"
-                    Click="{x:Bind ViewModel.DeleteProductSelected}"
+                    Click="{x:Bind ViewModel.Delete}"
                     />
         </StackPanel>
 

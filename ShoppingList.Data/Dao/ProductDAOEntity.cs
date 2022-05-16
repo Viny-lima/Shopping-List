@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace ShoppingList.Data.DAO
 {
-    public class ProductDAOEntity : IProductDAO , IDisposable
+    public class ProductDAOEntity : IProductDAO
     {
         private readonly ShoppingListContext _context;
 
@@ -35,15 +35,15 @@ namespace ShoppingList.Data.DAO
             return await _context.Set<Product>().ToListAsync();
         }
 
-        public async Task Update(Product newProduct)
+        public async Task Update(Product product)
         {
-            _context.Set<Product>().Update(newProduct);
+            _context.Set<Product>().Update(product);
             await _context.SaveChangesAsync();
         }
 
         public async Task Delete(Product product)
         {           
-            _context.Set<Product>().Remove(product);
+            _context.Set<Product>().Add(product);
             await _context.SaveChangesAsync();
         }
 

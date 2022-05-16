@@ -30,17 +30,17 @@
     <AppXManifest Include="C:\MySource\Shopping-List\ShoppingList.Screens\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-05-12T16:14:16.979</Modified>
+      <Modified>2022-05-16T18:54:52.194</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\MySource\Shopping-List\ShoppingList.Screens\bin\x86\Debug\ShoppingList.Screens.exe">
       <PackagePath>entrypoint\ShoppingList.Screens.exe</PackagePath>
-      <Modified>2022-05-12T16:14:14.413</Modified>
+      <Modified>2022-05-16T18:54:50.899</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\vinicius.fl\.nuget\packages\microsoft.bcl.asyncinterfaces\1.1.1\lib\netstandard2.0\Microsoft.Bcl.AsyncInterfaces.dll">
+    <AppxPackagedFile Include="C:\Users\vinicius.fl\.nuget\packages\microsoft.bcl.asyncinterfaces\5.0.0\lib\netstandard2.0\Microsoft.Bcl.AsyncInterfaces.dll">
       <PackagePath>Microsoft.Bcl.AsyncInterfaces.dll</PackagePath>
-      <Modified>2020-04-14T22:38:32.000</Modified>
+      <Modified>2020-10-19T18:40:26.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vinicius.fl\.nuget\packages\microsoft.bcl.hashcode\1.1.1\lib\netstandard2.0\Microsoft.Bcl.HashCode.dll">
       <PackagePath>Microsoft.Bcl.HashCode.dll</PackagePath>
@@ -118,6 +118,10 @@
       <PackagePath>Microsoft.Extensions.Primitives.dll</PackagePath>
       <Modified>2022-03-30T09:09:54.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vinicius.fl\.nuget\packages\microsoft.toolkit.mvvm\7.0.0\lib\netstandard2.0\Microsoft.Toolkit.Mvvm.dll">
+      <PackagePath>Microsoft.Toolkit.Mvvm.dll</PackagePath>
+      <Modified>2021-03-11T16:25:00.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vinicius.fl\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
       <Modified>2021-02-05T01:15:46.000</Modified>
@@ -160,15 +164,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\MySource\Shopping-List\ShoppingList.Data\bin\x86\Debug\netstandard2.0\ShoppingList.Data.dll">
       <PackagePath>ShoppingList.Data.dll</PackagePath>
-      <Modified>2022-05-11T19:39:44.890</Modified>
+      <Modified>2022-05-16T18:47:57.696</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\MySource\Shopping-List\ShoppingList.Domain\bin\x86\Debug\netstandard2.0\ShoppingList.Domain.dll">
       <PackagePath>ShoppingList.Domain.dll</PackagePath>
-      <Modified>2022-05-11T19:39:42.815</Modified>
+      <Modified>2022-05-16T18:47:54.402</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\MySource\Shopping-List\ShoppingList.Service\bin\Debug\netstandard2.0\ShoppingList.Service.dll">
       <PackagePath>ShoppingList.Service.dll</PackagePath>
-      <Modified>2022-05-11T19:39:44.172</Modified>
+      <Modified>2022-05-16T18:47:56.165</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
@@ -218,23 +222,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\MySource\Shopping-List\ShoppingList.Screens\bin\x86\Debug\ShoppingList.Screens.xr.xml">
       <PackagePath>ShoppingList.Screens.xr.xml</PackagePath>
-      <Modified>2022-05-12T16:14:14.275</Modified>
+      <Modified>2022-05-16T18:46:45.007</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\MySource\Shopping-List\ShoppingList.Screens\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-05-12T16:14:14.303</Modified>
+      <Modified>2022-05-16T18:54:50.811</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\MySource\Shopping-List\ShoppingList.Screens\bin\x86\Debug\Resources\ProductResources.xbf">
       <PackagePath>Resources\ProductResources.xbf</PackagePath>
-      <Modified>2022-05-12T16:14:14.303</Modified>
+      <Modified>2022-05-16T18:54:50.810</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\MySource\Shopping-List\ShoppingList.Screens\bin\x86\Debug\Views\ProductsPage.xbf">
       <PackagePath>Views\ProductsPage.xbf</PackagePath>
-      <Modified>2022-05-12T16:14:14.304</Modified>
+      <Modified>2022-05-16T18:54:50.811</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\MySource\Shopping-List\ShoppingList.Screens\bin\x86\Debug\Views\ProductUpdateView.xbf">
       <PackagePath>Views\ProductUpdateView.xbf</PackagePath>
-      <Modified>2022-05-12T16:14:14.304</Modified>
+      <Modified>2022-05-16T18:54:50.811</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -242,11 +246,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\MySource\Shopping-List\ShoppingList.Screens\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-05-12T16:14:15.818</Modified>
+      <Modified>2022-05-16T18:48:06.835</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\MySource\Shopping-List\ShoppingList.Screens\bin\x86\Debug\Core\ShoppingList.Screens.exe">
       <PackagePath>ShoppingList.Screens.exe</PackagePath>
-      <Modified>2022-05-12T16:14:16.718</Modified>
+      <Modified>2022-05-16T18:54:51.947</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

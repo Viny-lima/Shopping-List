@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ShoppingList.Domain.Interfaces
 {
-    public interface IProductService
+    public interface IProductService : IDisposable
     {
         Task<Product> FindById(int id);
         Task<List<Product>> FindAll();

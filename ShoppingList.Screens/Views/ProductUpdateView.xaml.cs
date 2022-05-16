@@ -15,22 +15,17 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-// The User Control item template is documented at https://go.microsoft.com/fwlink/?LinkId=234236
+
 
 namespace ShoppingList.Screens.Views
 {
     public sealed partial class ProductUpdateView : UserControl
     {
-        ProductUpdateViewModel ViewModel;
+        ProductItemViewModel ViewModel;
 
         public ProductUpdateView()
         {
-            this.InitializeComponent();
-            ViewModel = new ProductUpdateViewModel(
-
-                App.Service,new ProductItemViewModel()
-
-            );
+            this.InitializeComponent();            
         }
     }
 }

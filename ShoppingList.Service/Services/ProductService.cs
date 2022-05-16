@@ -31,5 +31,8 @@ namespace ShoppingList.Service.Services
         public Task Update(Product product) => repository.Update(product);
 
         public Task Delete(Product product) => repository.Delete(product);
+
+        public void Dispose() => repository.Dispose();
+        
     }
 }
