@@ -22,17 +22,21 @@ namespace ShoppingList.Screens.ViewModels
         public ProductsViewModel(IProductService service)
         {
             this._service = service;
-            LoadListProduct();
-        }
-
-        public void LoadListProduct()
-        {
-            ListProducts = new ObservableCollection<ProductItemViewModel>();
 
             var listDatabase = App.Service.FindAll().Result
                                    .Select(product => ProductItemViewModel.Create(product))
                                    .ToList();
 
+            ListProducts = new ObservableCollection<ProductItemViewModel>(listDatabase);
+        }
+
+        public void LoadListProduct()
+        {
+            var listDatabase = App.Service.FindAll().Result
+                                   .Select(product => ProductItemViewModel.Create(product))
+                                   .ToList();
+
+            ListProducts.Clear();
 
             foreach (var item in listDatabase)
             {
@@ -55,6 +59,14 @@ namespace ShoppingList.Screens.ViewModels
             var productDb = _service.FindById(product.Id).Result;
             await _service.Delete(productDb);
 
+        }
+
+        public async void AddProductSelected(Product product)
+        {
+            //Auto-Increment DataBase
+            product.Id = 0;
+            product.RegistrationData = DateTime.Now;
+            await _service.Registered(product);
         }
         
     }

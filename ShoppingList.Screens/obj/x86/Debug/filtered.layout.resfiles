@@ -10,6 +10,5 @@ App.xbf
 Resources\ProductResources.xbf
 ShoppingList.Screens.xr.xml
 Views\ProductsPage.xbf
-Views\ProductUpdateView.xbf
 Properties\Default.rd.xml
 WinMetadata\Windows.winmd

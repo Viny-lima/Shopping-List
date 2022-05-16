@@ -129,9 +129,5 @@
       <RootMethod Name="SetVerticalScrollBarVisibility" />
     </RootType>
     <RootType FullName="ShoppingList.Screens.Views.ProductsPage" />
-    <RootType FullName="Windows.UI.Xaml.Controls.UserControl">
-      <RootProperty Name="Content" />
-    </RootType>
-    <RootType FullName="ShoppingList.Screens.Views.ProductUpdateView" />
   </Roots.RootTypes>
 </Roots>

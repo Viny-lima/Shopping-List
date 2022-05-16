@@ -80,7 +80,6 @@
                     Grid.Row="1"
                     Margin="0 10">
                 
-                <TextBlock x:ConnectionId='12'                                              Style="{StaticResource ProductTitle}"/>                
                 <TextBox x:ConnectionId='13'                                                Style="{StaticResource ProductTitleTextBox}"/>
                 <TextBlock x:ConnectionId='14'                                                                                                        
                            Style="{StaticResource ProductDataRegister}"/>
@@ -101,14 +100,16 @@
                         Style="{StaticResource NavigationButton}"
                                                             
                         />
-                <Button Content="ADD NEW PRODUCT" 
+                <Button x:ConnectionId='12' Content="ADD NEW PRODUCT" 
                         Grid.Row="1"
                         HorizontalAlignment="Right"
                         Style="{StaticResource NavigationButton}"
                         Background="#85CB33"
                         Foreground="White"
                         FontWeight="SemiBold"
-                        Margin="0"/>
+                        Margin="0"
+                                                         
+                        />
             </StackPanel>
 
         </Grid>

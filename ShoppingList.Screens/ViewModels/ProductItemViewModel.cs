@@ -1,13 +1,7 @@
 ﻿using Microsoft.Toolkit.Mvvm.ComponentModel;
 using ShoppingList.Domain.Entities;
-using ShoppingList.Domain.Interfaces;
-using ShoppingList.Domain.ViewModels;
 using ShoppingList.Screens.Events;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ShoppingList.Screens.ViewModels
 {
@@ -101,6 +95,18 @@ namespace ShoppingList.Screens.ViewModels
         public void Delete()
         {
             ShoppingListEvents.OnDeleteProduct(ForProduct());
+        }
+
+        public void Add()
+        {
+            try
+            {
+                ShoppingListEvents.OnAddProduct(ForProduct());
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine(e);
+            }
         }
 
     }

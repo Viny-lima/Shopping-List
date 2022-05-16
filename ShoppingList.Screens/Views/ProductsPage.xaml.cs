@@ -44,6 +44,7 @@ namespace ShoppingList.Screens.Views
             //Events
             ShoppingListEvents.Update += ViewModel.UpdateProductSelected;
             ShoppingListEvents.Delete += ViewModel.DeleteProductSelected;
+            ShoppingListEvents.Add += ViewModel.AddProductSelected;
             ShoppingListEvents.RefreshList += ViewModel.LoadListProduct;
             ShoppingListEvents.HideItem += HideItemSelected;
         }
@@ -63,7 +64,7 @@ namespace ShoppingList.Screens.Views
             var productSelected = e.ClickedItem as ProductItemViewModel;
             ForProductSelected(productSelected);
             ShowItemSelected();
-        }
+        }        
 
         private void ForProductSelected(ProductItemViewModel productSelected) 
         {
@@ -72,5 +73,6 @@ namespace ShoppingList.Screens.Views
             ItemSelected.Description = productSelected.Description;
             ItemSelected.RegistrationData = productSelected.RegistrationData;
         }
+
     }
 }

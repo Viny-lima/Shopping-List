@@ -178,9 +178,6 @@
     <AppxPackagedFile Include="C:\MySource\Shopping-List\ShoppingList.Screens\bin\x86\Debug\Views\ProductsPage.xbf">
       <PackagePath>Views\ProductsPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\MySource\Shopping-List\ShoppingList.Screens\bin\x86\Debug\Views\ProductUpdateView.xbf">
-      <PackagePath>Views\ProductUpdateView.xbf</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>

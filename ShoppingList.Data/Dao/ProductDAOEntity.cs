@@ -43,7 +43,7 @@ namespace ShoppingList.Data.DAO
 
         public async Task Delete(Product product)
         {           
-            _context.Set<Product>().Add(product);
+            _context.Set<Product>().Remove(product);
             await _context.SaveChangesAsync();
         }
 

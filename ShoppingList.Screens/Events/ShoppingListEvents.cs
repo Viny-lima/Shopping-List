@@ -15,6 +15,9 @@ namespace ShoppingList.Screens.Events
         public delegate void DeleteProduct(Product product);
         public static event DeleteProduct Delete;
 
+        public delegate void AddProduct(Product product);
+        public static event AddProduct Add;
+
         public delegate void LoadListProduct();
         public static event LoadListProduct RefreshList;
 
@@ -33,7 +36,12 @@ namespace ShoppingList.Screens.Events
             Delete?.Invoke(product);
             RefreshList?.Invoke();
             HideItem?.Invoke();
+        }
 
+        public static void OnAddProduct(Product product)
+        {
+            Add?.Invoke(product);
+            RefreshList?.Invoke();
         }
     }
 }
