@@ -197,10 +197,10 @@ C:\MySource\ShoppingList\ShoppingList.Service.Tests\obj\x86\Debug\netcoreapp3.1\
 C:\MySource\ShoppingList\ShoppingList.Service.Tests\obj\x86\Debug\netcoreapp3.1\ShoppingList.Service.Tests.genruntimeconfig.cache
 C:\MySource\Shopping-List\ShoppingList.Service.Tests\bin\x86\Debug\netcoreapp3.1\testhost.x86.exe
 C:\MySource\Shopping-List\ShoppingList.Service.Tests\bin\x86\Debug\netcoreapp3.1\testhost.x86.dll
+C:\MySource\Shopping-List\ShoppingList.Service.Tests\bin\x86\Debug\netcoreapp3.1\Microsoft.TestPlatform.PlatformAbstractions.dll
 C:\MySource\Shopping-List\ShoppingList.Service.Tests\bin\x86\Debug\netcoreapp3.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
 C:\MySource\Shopping-List\ShoppingList.Service.Tests\bin\x86\Debug\netcoreapp3.1\xunit.runner.reporters.netcoreapp10.dll
 C:\MySource\Shopping-List\ShoppingList.Service.Tests\bin\x86\Debug\netcoreapp3.1\xunit.runner.utility.netcoreapp10.dll
-C:\MySource\Shopping-List\ShoppingList.Service.Tests\bin\x86\Debug\netcoreapp3.1\Microsoft.TestPlatform.PlatformAbstractions.dll
 C:\MySource\Shopping-List\ShoppingList.Service.Tests\bin\x86\Debug\netcoreapp3.1\ShoppingList.Service.Tests.deps.json
 C:\MySource\Shopping-List\ShoppingList.Service.Tests\bin\x86\Debug\netcoreapp3.1\ShoppingList.Service.Tests.runtimeconfig.json
 C:\MySource\Shopping-List\ShoppingList.Service.Tests\bin\x86\Debug\netcoreapp3.1\ShoppingList.Service.Tests.runtimeconfig.dev.json

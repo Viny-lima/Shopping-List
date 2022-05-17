@@ -7,9 +7,8 @@
   IgnorableNamespaces="uap rescap">
 
   <Identity
-    Name="94169b6a-4be0-4de3-8f75-a05ac1263f25"
     Publisher="CN=vinicius.fl"
-    Version="1.0.0.0" />
+    Version="1.0.0.0"  Name="shoppinglistapp"/>
 
   <Properties>
     <DisplayName>ShoppingListApp</DisplayName>
@@ -39,6 +38,13 @@
         <uap:DefaultTile Wide310x150Logo="Images\Wide310x150Logo.png" />
         <uap:SplashScreen Image="Images\SplashScreen.png" />
       </uap:VisualElements>
+      <Extensions>
+        <uap:Extension Category="windows.protocol" Executable="ShoppingList.Screens.exe" EntryPoint="ShoppingList.Screens.App">
+          <uap:Protocol Name="com.shoppinglist.screens">
+            <uap:DisplayName>GoToUWP</uap:DisplayName>
+          </uap:Protocol>
+        </uap:Extension>
+      </Extensions>
     </Application>
   </Applications>
 

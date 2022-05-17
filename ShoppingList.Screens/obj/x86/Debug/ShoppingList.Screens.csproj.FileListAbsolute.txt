@@ -45,6 +45,7 @@ C:\MySource\Shopping-List\ShoppingList.Screens\bin\x86\Debug\Microsoft.UI.Xaml.M
 C:\MySource\Shopping-List\ShoppingList.Screens\bin\x86\Debug\ShoppingList.Data.dll
 C:\MySource\Shopping-List\ShoppingList.Screens\bin\x86\Debug\ShoppingList.Domain.dll
 C:\MySource\Shopping-List\ShoppingList.Screens\bin\x86\Debug\ShoppingList.Service.dll
+C:\MySource\Shopping-List\ShoppingList.Screens\bin\x86\Debug\Windows.Foundation.UniversalApiContract.winmd
 C:\MySource\Shopping-List\ShoppingList.Screens\bin\x86\Debug\ShoppingList.Data.pdb
 C:\MySource\Shopping-List\ShoppingList.Screens\bin\x86\Debug\ShoppingList.Domain.pdb
 C:\MySource\Shopping-List\ShoppingList.Screens\bin\x86\Debug\ShoppingList.Service.pdb

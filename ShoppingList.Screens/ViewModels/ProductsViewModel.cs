@@ -1,7 +1,6 @@
 ﻿using ShoppingList.Domain.Entities;
 using ShoppingList.Domain.Interfaces;
-using ShoppingList.Domain.ViewModels;
-using ShoppingList.Screens.Views;
+using ShoppingList.Service.Views;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -11,7 +10,7 @@ using System.Threading.Tasks;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 
-namespace ShoppingList.Screens.ViewModels
+namespace ShoppingList.Service.ViewModels
 {
     public class ProductsViewModel
     {

@@ -2,42 +2,22 @@
 using ShoppingList.Domain.Entities;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Text;
+using Windows.Storage;
 
 namespace ShoppingList.Data.Connection
 {
-    internal class ShoppingListContext : DbContext
+    public class ShoppingListContext : DbContext
     {
 
         public DbSet<Product> Products { get; set; }
 
-        private static bool _onDatabasePathChange;
-        private static string _path;
-        public static string Path
-        {
-            get
-            {
-                if (String.IsNullOrEmpty(_path))
-                {
-                    throw new InvalidOperationException($"static property {nameof(Path)} not inserted in instance-static({typeof(ShoppingListContext)}).");
-                }
-
-                return _path;
-            }
-            set
-            {
-                if (!_onDatabasePathChange)
-                {
-                    _path = value;
-                    _onDatabasePathChange = true;
-                }
-            }
-        }
-
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlite($"DataSource={Path}");
+            optionsBuilder.UseSqlite($"DataSource={Path.Combine(ApplicationData.Current.LocalFolder.Path, "Database.db")}");
+
             base.OnConfiguring(optionsBuilder);
         }
 

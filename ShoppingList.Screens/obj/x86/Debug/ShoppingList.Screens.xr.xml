@@ -11,7 +11,7 @@
     <RootType FullName="Windows.UI.Xaml.ResourceDictionary">
       <RootProperty Name="Source" />
     </RootType>
-    <RootType FullName="ShoppingList.Screens.Converters.DateTimeFormStringConverter" />
+    <RootType FullName="ShoppingList.Service.Converters.DateTimeFormStringConverter" />
     <RootType FullName="Windows.UI.Xaml.Media.SolidColorBrush">
       <RootProperty Name="Color" />
     </RootType>
@@ -41,9 +41,9 @@
       <RootProperty Name="CornerRadius" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
-      <RootProperty Name="Name" />
       <RootProperty Name="Content" />
       <RootProperty Name="Style" />
+      <RootProperty Name="IsEnabled" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Background" />
       <RootProperty Name="Foreground" />
@@ -82,7 +82,6 @@
       <RootProperty Name="MinHeight" />
       <RootProperty Name="Background" />
       <RootProperty Name="Padding" />
-      <RootProperty Name="Visibility" />
       <RootMethod Name="GetRow" />
       <RootMethod Name="SetRow" />
       <RootMethod Name="GetColumnSpan" />
@@ -128,6 +127,6 @@
       <RootMethod Name="GetVerticalScrollBarVisibility" />
       <RootMethod Name="SetVerticalScrollBarVisibility" />
     </RootType>
-    <RootType FullName="ShoppingList.Screens.Views.ProductsPage" />
+    <RootType FullName="ShoppingList.Service.Views.ProductsPage" />
   </Roots.RootTypes>
 </Roots>

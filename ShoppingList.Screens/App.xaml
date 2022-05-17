@@ -1,8 +1,8 @@
 ﻿<Application
-    x:Class="ShoppingList.Screens.App"
+    x:Class="ShoppingList.Service.App"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:ShoppingList.Screens"
+    xmlns:local="using:ShoppingList.Service"
     RequestedTheme="Light">
     <Application.Resources>
         <ResourceDictionary Source="Resources/ProductResources.xaml"/>

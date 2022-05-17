@@ -1,6 +1,5 @@
-﻿using ShoppingList.Domain.ViewModels;
-using ShoppingList.Screens.Events;
-using ShoppingList.Screens.ViewModels;
+﻿using ShoppingList.Service.Events;
+using ShoppingList.Service.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -17,7 +16,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-namespace ShoppingList.Screens.Views
+namespace ShoppingList.Service.Views
 {
     public sealed partial class ProductsPage : Page
     {
@@ -33,7 +32,10 @@ namespace ShoppingList.Screens.Views
         {
             //Initialize
             ViewModel = new ProductsViewModel(App.Service);
-            ItemSelected = new ProductItemViewModel();
+            ItemSelected = new ProductItemViewModel()
+            {
+                RegistrationData = DateTime.Now,
+            };
 
             OnConfigureEvents();
             base.OnNavigatedTo(e);
@@ -46,12 +48,7 @@ namespace ShoppingList.Screens.Views
             ShoppingListEvents.Delete += ViewModel.DeleteProductSelected;
             ShoppingListEvents.Add += ViewModel.AddProductSelected;
             ShoppingListEvents.RefreshList += ViewModel.LoadListProduct;
-            ShoppingListEvents.HideItem += HideItemSelected;
-        }
-
-        private void HideItemSelected()
-        {
-            ProductItemView.Visibility = Visibility.Collapsed;
+            ShoppingListEvents.RefreshList += CleanProductSelected;
         }
 
         private void ShowItemSelected()
@@ -72,6 +69,16 @@ namespace ShoppingList.Screens.Views
             ItemSelected.Name = productSelected.Name;
             ItemSelected.Description = productSelected.Description;
             ItemSelected.RegistrationData = productSelected.RegistrationData;
+            ItemSelected.IsEnable = true;
+        }
+
+        private void CleanProductSelected()
+        {
+            ItemSelected.Id = 0;
+            ItemSelected.Name = "";
+            ItemSelected.Description = "";
+            ItemSelected.RegistrationData = DateTime.Now;
+            ItemSelected.IsEnable = false;
         }
 
     }

@@ -1,9 +1,9 @@
 ﻿using Microsoft.Toolkit.Mvvm.ComponentModel;
 using ShoppingList.Domain.Entities;
-using ShoppingList.Screens.Events;
+using ShoppingList.Service.Events;
 using System;
 
-namespace ShoppingList.Screens.ViewModels
+namespace ShoppingList.Service.ViewModels
 {
     public class ProductItemViewModel : ObservableObject
     {
@@ -48,7 +48,20 @@ namespace ShoppingList.Screens.ViewModels
                 SetProperty(ref _registrationData, value);
 
             }
-        }      
+        }
+
+        private bool _isEnable;
+        public bool IsEnable
+        {
+            get  
+            {
+                return _isEnable;
+            }
+            set 
+            {
+                SetProperty(ref _isEnable, value);
+            }
+        }
 
         public ProductItemViewModel() { }
 

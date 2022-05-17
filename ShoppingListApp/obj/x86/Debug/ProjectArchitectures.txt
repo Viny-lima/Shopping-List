@@ -1,0 +1,2 @@
+C:\MySource\Shopping-List\ShoppingList.Screens\ShoppingList.Screens.csproj;x86
+C:\MySource\Shopping-List\ShoppingListApp\ShoppingListApp.wapproj;x86

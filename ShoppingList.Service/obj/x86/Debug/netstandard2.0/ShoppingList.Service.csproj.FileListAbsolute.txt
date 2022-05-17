@@ -1,0 +1,13 @@
+C:\MySource\Shopping-List\ShoppingList.Service\bin\x86\Debug\netstandard2.0\ShoppingList.Service.deps.json
+C:\MySource\Shopping-List\ShoppingList.Service\bin\x86\Debug\netstandard2.0\ShoppingList.Service.dll
+C:\MySource\Shopping-List\ShoppingList.Service\bin\x86\Debug\netstandard2.0\ShoppingList.Service.pdb
+C:\MySource\Shopping-List\ShoppingList.Service\bin\x86\Debug\netstandard2.0\ShoppingList.Domain.dll
+C:\MySource\Shopping-List\ShoppingList.Service\bin\x86\Debug\netstandard2.0\ShoppingList.Domain.pdb
+C:\MySource\Shopping-List\ShoppingList.Service\obj\x86\Debug\netstandard2.0\ShoppingList.Service.csproj.AssemblyReference.cache
+C:\MySource\Shopping-List\ShoppingList.Service\obj\x86\Debug\netstandard2.0\ShoppingList.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\MySource\Shopping-List\ShoppingList.Service\obj\x86\Debug\netstandard2.0\ShoppingList.Service.AssemblyInfoInputs.cache
+C:\MySource\Shopping-List\ShoppingList.Service\obj\x86\Debug\netstandard2.0\ShoppingList.Service.AssemblyInfo.cs
+C:\MySource\Shopping-List\ShoppingList.Service\obj\x86\Debug\netstandard2.0\ShoppingList.Service.csproj.CoreCompileInputs.cache
+C:\MySource\Shopping-List\ShoppingList.Service\obj\x86\Debug\netstandard2.0\ShoppingList.Service.csproj.CopyComplete
+C:\MySource\Shopping-List\ShoppingList.Service\obj\x86\Debug\netstandard2.0\ShoppingList.Service.dll
+C:\MySource\Shopping-List\ShoppingList.Service\obj\x86\Debug\netstandard2.0\ShoppingList.Service.pdb

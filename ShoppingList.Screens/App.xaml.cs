@@ -4,7 +4,7 @@ using ShoppingList.Data.DAO;
 using ShoppingList.Data.Interfaces;
 using ShoppingList.Data.Repositories;
 using ShoppingList.Domain.Interfaces;
-using ShoppingList.Screens.Views;
+using ShoppingList.Service.Views;
 using ShoppingList.Service.Services;
 using System;
 using System.Collections.Generic;
@@ -24,7 +24,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-namespace ShoppingList.Screens
+namespace ShoppingList.Service
 {
     sealed partial class App : Application
     {
@@ -34,7 +34,8 @@ namespace ShoppingList.Screens
         public App()
         {
             this.InitializeComponent();
-            CreateDatabaseApp();
+
+            new ManagerDatabase().CreateDatabase();
             this.Suspending += OnSuspending;
 
             //Dependecy Injection
@@ -51,12 +52,6 @@ namespace ShoppingList.Screens
             service.AddTransient<IProductService, ProductService>();
 
             return service.BuildServiceProvider();
-        }
-
-        private void CreateDatabaseApp()
-        {
-            var path = Path.Combine(ApplicationData.Current.LocalFolder.Path, "Database.db");
-            new ManagerDatabase(path).CreateDatabase();
         }
 
         protected override void OnLaunched(LaunchActivatedEventArgs e)

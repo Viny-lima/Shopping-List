@@ -291,10 +291,10 @@ C:\MySource\ShoppingList\ShoppingList.Infrastructure.Tests\obj\x86\Debug\netcore
 C:\MySource\Shopping-List\ShoppingList.Infrastructure.Tests\bin\x86\Debug\netcoreapp3.1\CoverletSourceRootsMapping
 C:\MySource\Shopping-List\ShoppingList.Infrastructure.Tests\bin\x86\Debug\netcoreapp3.1\testhost.x86.exe
 C:\MySource\Shopping-List\ShoppingList.Infrastructure.Tests\bin\x86\Debug\netcoreapp3.1\testhost.x86.dll
+C:\MySource\Shopping-List\ShoppingList.Infrastructure.Tests\bin\x86\Debug\netcoreapp3.1\Microsoft.TestPlatform.PlatformAbstractions.dll
 C:\MySource\Shopping-List\ShoppingList.Infrastructure.Tests\bin\x86\Debug\netcoreapp3.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
 C:\MySource\Shopping-List\ShoppingList.Infrastructure.Tests\bin\x86\Debug\netcoreapp3.1\xunit.runner.reporters.netcoreapp10.dll
 C:\MySource\Shopping-List\ShoppingList.Infrastructure.Tests\bin\x86\Debug\netcoreapp3.1\xunit.runner.utility.netcoreapp10.dll
-C:\MySource\Shopping-List\ShoppingList.Infrastructure.Tests\bin\x86\Debug\netcoreapp3.1\Microsoft.TestPlatform.PlatformAbstractions.dll
 C:\MySource\Shopping-List\ShoppingList.Infrastructure.Tests\bin\x86\Debug\netcoreapp3.1\ShoppingList.Infrastructure.Tests.deps.json
 C:\MySource\Shopping-List\ShoppingList.Infrastructure.Tests\bin\x86\Debug\netcoreapp3.1\ShoppingList.Infrastructure.Tests.runtimeconfig.json
 C:\MySource\Shopping-List\ShoppingList.Infrastructure.Tests\bin\x86\Debug\netcoreapp3.1\ShoppingList.Infrastructure.Tests.runtimeconfig.dev.json
@@ -337,6 +337,7 @@ C:\MySource\Shopping-List\ShoppingList.Infrastructure.Tests\bin\x86\Debug\netcor
 C:\MySource\Shopping-List\ShoppingList.Infrastructure.Tests\bin\x86\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 C:\MySource\Shopping-List\ShoppingList.Infrastructure.Tests\bin\x86\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
 C:\MySource\Shopping-List\ShoppingList.Infrastructure.Tests\bin\x86\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\MySource\Shopping-List\ShoppingList.Infrastructure.Tests\bin\x86\Debug\netcoreapp3.1\System.Text.Encodings.Web.dll
 C:\MySource\Shopping-List\ShoppingList.Infrastructure.Tests\bin\x86\Debug\netcoreapp3.1\System.Text.Json.dll
 C:\MySource\Shopping-List\ShoppingList.Infrastructure.Tests\bin\x86\Debug\netcoreapp3.1\xunit.abstractions.dll
 C:\MySource\Shopping-List\ShoppingList.Infrastructure.Tests\bin\x86\Debug\netcoreapp3.1\xunit.assert.dll
@@ -422,6 +423,7 @@ C:\MySource\Shopping-List\ShoppingList.Infrastructure.Tests\bin\x86\Debug\netcor
 C:\MySource\Shopping-List\ShoppingList.Infrastructure.Tests\bin\x86\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
 C:\MySource\Shopping-List\ShoppingList.Infrastructure.Tests\bin\x86\Debug\netcoreapp3.1\ShoppingList.Data.dll
 C:\MySource\Shopping-List\ShoppingList.Infrastructure.Tests\bin\x86\Debug\netcoreapp3.1\ShoppingList.Domain.dll
+C:\MySource\Shopping-List\ShoppingList.Infrastructure.Tests\bin\x86\Debug\netcoreapp3.1\Windows.Foundation.UniversalApiContract.winmd
 C:\MySource\Shopping-List\ShoppingList.Infrastructure.Tests\bin\x86\Debug\netcoreapp3.1\ShoppingList.Data.pdb
 C:\MySource\Shopping-List\ShoppingList.Infrastructure.Tests\bin\x86\Debug\netcoreapp3.1\ShoppingList.Domain.pdb
 C:\MySource\Shopping-List\ShoppingList.Infrastructure.Tests\obj\x86\Debug\netcoreapp3.1\ShoppingList.Infrastructure.Tests.csproj.AssemblyReference.cache
