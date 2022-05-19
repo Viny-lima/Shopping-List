@@ -35,6 +35,11 @@
             <uap:DisplayName>GoToUWP</uap:DisplayName>
           </uap:Protocol>
         </uap:Extension>
+        <uap:Extension Category="windows.protocol" Executable="ShoppingList.Main/ShoppingList.Main.exe" EntryPoint="Windows.FullTrustApplication">
+          <uap:Protocol Name="com.shoppinglist.main">
+            <uap:DisplayName>GoToWPF</uap:DisplayName>
+          </uap:Protocol>
+        </uap:Extension>
       </Extensions>
     </Application>
   </Applications>

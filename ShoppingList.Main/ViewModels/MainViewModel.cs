@@ -15,12 +15,12 @@ namespace ShoppingList.Main.ViewModels
         public ObservableCollection<Product> ListProducts { get; set; }
 
         private readonly IProductService service;
-
         public MainViewModel(IProductService service)
         {
             this.service = service;
 
-            ShoppingListEvents.RefreshList += UpdateListWithTwoLastItens;
+            ShoppingListEvents.RefreshList += RefreshListWithTwoLastItens;
+
             StartListWithTwoLastItens();
         }
 
@@ -43,7 +43,7 @@ namespace ShoppingList.Main.ViewModels
             }
         }
 
-        public void UpdateListWithTwoLastItens()
+        public void RefreshListWithTwoLastItens()
         {
             ListProducts.Clear();
 

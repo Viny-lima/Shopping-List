@@ -50,9 +50,9 @@ C:\MySource\Shopping-List\packages\Autofac.6.3.0\lib\netstandard2.0\Autofac.pdb
 C:\MySource\Shopping-List\packages\SQLitePCLRaw.lib.e_sqlite3.2.0.4\runtimes\win-x86\native\e_sqlite3.dll
 C:\MySource\Shopping-List\packages\SQLitePCLRaw.lib.e_sqlite3.2.0.4\runtimes\win-x64\native\e_sqlite3.dll
 C:\MySource\Shopping-List\packages\SQLitePCLRaw.lib.e_sqlite3.2.0.4\runtimes\win-arm\native\e_sqlite3.dll
-C:\MySource\Shopping-List\ShoppingList.Main\bin\Debug\ShoppingList.Main.exe
-C:\MySource\Shopping-List\ShoppingList.Main\bin\Debug\ShoppingList.Main.exe.config
-C:\MySource\Shopping-List\ShoppingList.Main\bin\Debug\ShoppingList.Main.pdb
+C:\MySource\Shopping-List\ShoppingList.Main\bin\x86\Debug\ShoppingList.Main.exe
+C:\MySource\Shopping-List\ShoppingList.Main\bin\x86\Debug\ShoppingList.Main.exe.config
+C:\MySource\Shopping-List\ShoppingList.Main\bin\x86\Debug\ShoppingList.Main.pdb
 C:\MySource\Shopping-List\ShoppingList.Data\bin\x86\Debug\netstandard2.0\ShoppingList.Data.pdb
 C:\MySource\Shopping-List\ShoppingList.Domain\bin\x86\Debug\netstandard2.0\ShoppingList.Domain.pdb
 C:\MySource\Shopping-List\ShoppingList.Service\bin\x86\Debug\netstandard2.0\ShoppingList.Service.pdb

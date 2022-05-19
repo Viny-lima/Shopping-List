@@ -1,4 +1,6 @@
-﻿using ShoppingList.Service.Events;
+﻿using Autofac;
+using ShoppingList.Main.ViewModels;
+using ShoppingList.Service.Events;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -22,14 +24,23 @@ namespace ShoppingList.Main
     /// </summary>
     public partial class MainWindow : Window
     {
+        public MainViewModel ViewModel;
+
         public MainWindow()
         {
             InitializeComponent();
+            ViewModel = App.Container.Resolve<MainViewModel>();
+            DataContext = ViewModel;
         }
 
         private void SeeAllProductsButton_Click(object sender, RoutedEventArgs e)
         {
             Process.Start("com.shoppinglist.screens://");
+        }
+
+        private void Refresh_Click(object sender, RoutedEventArgs e)
+        {
+            ViewModel.RefreshListWithTwoLastItens();
         }
     }
 }

@@ -20,16 +20,14 @@ namespace ShoppingList.Main
     /// </summary>
     public partial class App : Application
     {
+        public static IContainer Container { get; set; }
+
         protected override void OnStartup(StartupEventArgs e)
         {
-            IContainer container = CreateContainer();
+            Container = CreateContainer();
 
             new ManagerDatabase().CreateDatabase();
-
-            MainViewModel mainViewModel = container.Resolve<MainViewModel>();
             var window = new MainWindow();
-
-            window.DataContext = mainViewModel;
 
             MainWindow = window;
             MainWindow.Show();

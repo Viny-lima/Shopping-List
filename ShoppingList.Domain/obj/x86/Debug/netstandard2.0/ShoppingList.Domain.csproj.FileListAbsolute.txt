@@ -21,6 +21,7 @@ C:\MySource\ShoppingList\ShoppingList.Domain\obj\x86\Debug\netstandard2.0\Shoppi
 C:\MySource\Shopping-List\ShoppingList.Domain\bin\x86\Debug\netstandard2.0\ShoppingList.Domain.deps.json
 C:\MySource\Shopping-List\ShoppingList.Domain\bin\x86\Debug\netstandard2.0\ShoppingList.Domain.dll
 C:\MySource\Shopping-List\ShoppingList.Domain\bin\x86\Debug\netstandard2.0\ShoppingList.Domain.pdb
+C:\MySource\Shopping-List\ShoppingList.Domain\obj\x86\Debug\netstandard2.0\ShoppingList.Domain.csproj.AssemblyReference.cache
 C:\MySource\Shopping-List\ShoppingList.Domain\obj\x86\Debug\netstandard2.0\ShoppingList.Domain.GeneratedMSBuildEditorConfig.editorconfig
 C:\MySource\Shopping-List\ShoppingList.Domain\obj\x86\Debug\netstandard2.0\ShoppingList.Domain.AssemblyInfoInputs.cache
 C:\MySource\Shopping-List\ShoppingList.Domain\obj\x86\Debug\netstandard2.0\ShoppingList.Domain.AssemblyInfo.cs

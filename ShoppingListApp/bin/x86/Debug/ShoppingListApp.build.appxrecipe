@@ -175,10 +175,10 @@
     <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\SQLitePCLRaw.lib.e_sqlite3.2.0.4\runtimes\win-arm\native\e_sqlite3.dll">
       <PackagePath>ShoppingList.Main\runtimes\win-arm\native\e_sqlite3.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\MySource\Shopping-List\ShoppingList.Main\bin\Debug\ShoppingList.Main.exe">
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\ShoppingList.Main\bin\x86\Debug\ShoppingList.Main.exe">
       <PackagePath>ShoppingList.Main\ShoppingList.Main.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\MySource\Shopping-List\ShoppingList.Main\bin\Debug\ShoppingList.Main.exe.config">
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\ShoppingList.Main\bin\x86\Debug\ShoppingList.Main.exe.config">
       <PackagePath>ShoppingList.Main\ShoppingList.Main.exe.config</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\MySource\Shopping-List\ShoppingList.Screens\bin\x86\Debug\ShoppingList.Screens.exe">

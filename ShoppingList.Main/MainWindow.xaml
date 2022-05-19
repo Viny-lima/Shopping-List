@@ -44,6 +44,11 @@
                     Style="{DynamicResource NavigationButton}" 
                     Click="SeeAllProductsButton_Click"
                     />
+            <Button Name="Refresh" 
+                    Content="Refresh" 
+                    Style="{DynamicResource NavigationButton}" 
+                    Click="Refresh_Click"
+                    />
         </StackPanel>
 
 

@@ -11,7 +11,7 @@
     <RootType FullName="Windows.UI.Xaml.ResourceDictionary">
       <RootProperty Name="Source" />
     </RootType>
-    <RootType FullName="ShoppingList.Screens.Converters.DateTimeFormStringConverter" />
+    <RootType FullName="ShoppingList.Service.Converters.DateTimeFormStringConverter" />
     <RootType FullName="Windows.UI.Xaml.Media.SolidColorBrush">
       <RootProperty Name="Color" />
     </RootType>
@@ -127,6 +127,6 @@
       <RootMethod Name="GetVerticalScrollBarVisibility" />
       <RootMethod Name="SetVerticalScrollBarVisibility" />
     </RootType>
-    <RootType FullName="ShoppingList.Screens.Views.ProductsPage" />
+    <RootType FullName="ShoppingList.Service.Views.ProductsPage" />
   </Roots.RootTypes>
 </Roots>
