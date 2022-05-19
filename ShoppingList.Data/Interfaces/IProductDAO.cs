@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ShoppingList.Data.Interfaces
 {
-    public interface IProductDAO : IDAO<Product>
+    public interface IProductDAO : IDAO<Product>, IDisposable
     {
     }
 }

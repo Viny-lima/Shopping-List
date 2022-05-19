@@ -24,3 +24,17 @@ C:\MySource\ShoppingList\ShoppingList.Data\obj\x86\Debug\netstandard2.0\Shopping
 C:\MySource\ShoppingList\ShoppingList.Data\obj\x86\Debug\netstandard2.0\ShoppingList.Data.csproj.CopyComplete
 C:\MySource\ShoppingList\ShoppingList.Data\obj\x86\Debug\netstandard2.0\ShoppingList.Data.dll
 C:\MySource\ShoppingList\ShoppingList.Data\obj\x86\Debug\netstandard2.0\ShoppingList.Data.pdb
+C:\MySource\Shopping-List\ShoppingList.Data\bin\x86\Debug\netstandard2.0\ShoppingList.Data.deps.json
+C:\MySource\Shopping-List\ShoppingList.Data\bin\x86\Debug\netstandard2.0\ShoppingList.Data.dll
+C:\MySource\Shopping-List\ShoppingList.Data\bin\x86\Debug\netstandard2.0\ShoppingList.Data.pdb
+C:\MySource\Shopping-List\ShoppingList.Data\bin\x86\Debug\netstandard2.0\ShoppingList.Domain.dll
+C:\MySource\Shopping-List\ShoppingList.Data\bin\x86\Debug\netstandard2.0\Windows.Foundation.UniversalApiContract.winmd
+C:\MySource\Shopping-List\ShoppingList.Data\bin\x86\Debug\netstandard2.0\ShoppingList.Domain.pdb
+C:\MySource\Shopping-List\ShoppingList.Data\obj\x86\Debug\netstandard2.0\ShoppingList.Data.csproj.AssemblyReference.cache
+C:\MySource\Shopping-List\ShoppingList.Data\obj\x86\Debug\netstandard2.0\ShoppingList.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\MySource\Shopping-List\ShoppingList.Data\obj\x86\Debug\netstandard2.0\ShoppingList.Data.AssemblyInfoInputs.cache
+C:\MySource\Shopping-List\ShoppingList.Data\obj\x86\Debug\netstandard2.0\ShoppingList.Data.AssemblyInfo.cs
+C:\MySource\Shopping-List\ShoppingList.Data\obj\x86\Debug\netstandard2.0\ShoppingList.Data.csproj.CoreCompileInputs.cache
+C:\MySource\Shopping-List\ShoppingList.Data\obj\x86\Debug\netstandard2.0\ShoppingList.Data.csproj.CopyComplete
+C:\MySource\Shopping-List\ShoppingList.Data\obj\x86\Debug\netstandard2.0\ShoppingList.Data.dll
+C:\MySource\Shopping-List\ShoppingList.Data\obj\x86\Debug\netstandard2.0\ShoppingList.Data.pdb

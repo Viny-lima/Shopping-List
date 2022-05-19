@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "C/u1AJctOYSqM7qRvCroB1uX1DhXx2tHx1dGvzTnncKcqkacQlSlUE8X+S295HKrgbWPgeGncoOUs1bdK35bOA==",
+  "dgSpecHash": "mNf/G/EnIl0KGyoYiHCxeip7YZ038PKY+qBDRVc3QMm4m81pEATpeDfzvynQ9GD76edGeY7+Igp1QfC7gur08g==",
   "success": true,
-  "projectFilePath": "C:\\MySource\\ShoppingList\\ShoppingList.Service.Tests\\ShoppingList.Service.Tests.csproj",
+  "projectFilePath": "C:\\MySource\\Shopping-List\\ShoppingList.Service.Tests\\ShoppingList.Service.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vinicius.fl\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\vinicius.fl\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",
