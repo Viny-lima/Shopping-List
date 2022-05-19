@@ -207,10 +207,10 @@ C:\MySource\ShoppingList\ShoppingList.Domain.Tests\obj\x86\Debug\netcoreapp3.1\S
 C:\MySource\Shopping-List\ShoppingList.Domain.Tests\bin\x86\Debug\netcoreapp3.1\CoverletSourceRootsMapping
 C:\MySource\Shopping-List\ShoppingList.Domain.Tests\bin\x86\Debug\netcoreapp3.1\testhost.x86.exe
 C:\MySource\Shopping-List\ShoppingList.Domain.Tests\bin\x86\Debug\netcoreapp3.1\testhost.x86.dll
+C:\MySource\Shopping-List\ShoppingList.Domain.Tests\bin\x86\Debug\netcoreapp3.1\Microsoft.TestPlatform.PlatformAbstractions.dll
 C:\MySource\Shopping-List\ShoppingList.Domain.Tests\bin\x86\Debug\netcoreapp3.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
 C:\MySource\Shopping-List\ShoppingList.Domain.Tests\bin\x86\Debug\netcoreapp3.1\xunit.runner.reporters.netcoreapp10.dll
 C:\MySource\Shopping-List\ShoppingList.Domain.Tests\bin\x86\Debug\netcoreapp3.1\xunit.runner.utility.netcoreapp10.dll
-C:\MySource\Shopping-List\ShoppingList.Domain.Tests\bin\x86\Debug\netcoreapp3.1\Microsoft.TestPlatform.PlatformAbstractions.dll
 C:\MySource\Shopping-List\ShoppingList.Domain.Tests\bin\x86\Debug\netcoreapp3.1\ShoppingList.Domain.Tests.deps.json
 C:\MySource\Shopping-List\ShoppingList.Domain.Tests\bin\x86\Debug\netcoreapp3.1\ShoppingList.Domain.Tests.runtimeconfig.json
 C:\MySource\Shopping-List\ShoppingList.Domain.Tests\bin\x86\Debug\netcoreapp3.1\ShoppingList.Domain.Tests.runtimeconfig.dev.json

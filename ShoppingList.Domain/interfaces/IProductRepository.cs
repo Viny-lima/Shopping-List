@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ShoppingList.Domain.Interfaces
 {
-    public interface IProductRepository : IRepository<Product>
+    public interface IProductRepository : IRepository<Product>, IDisposable
     {
     }
 }

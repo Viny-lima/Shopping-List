@@ -8,9 +8,8 @@ namespace ShoppingList.Data.Connection
     {
         private ShoppingListContext _context;
 
-        public ManagerDatabase(string path)
+        public ManagerDatabase()
         {
-            ShoppingListContext.Path = path;
             _context = new ShoppingListContext();
         }
 

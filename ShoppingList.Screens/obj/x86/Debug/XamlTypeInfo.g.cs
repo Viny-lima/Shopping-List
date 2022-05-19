@@ -8,7 +8,7 @@
 //------------------------------------------------------------------------------
 
 
-namespace ShoppingList.Screens
+namespace ShoppingList.Service
 {
     public partial class App : global::Windows.UI.Xaml.Markup.IXamlMetadataProvider
     {

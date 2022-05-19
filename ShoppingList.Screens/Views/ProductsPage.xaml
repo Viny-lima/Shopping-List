@@ -1,0 +1,135 @@
+﻿<Page
+    x:Class="ShoppingList.Service.Views.ProductsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ShoppingList.Service.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:viewModels="using:ShoppingList.Service.ViewModels"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.Resources>        
+
+        <DataTemplate x:Key="ProductTemplate" x:DataType="viewModels:ProductItemViewModel">
+
+            <Border Background="{StaticResource ColorProduct}" Padding="10" Margin="0 0 0 10">
+                <Grid Width="300" 
+                      Height="100">
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock  Text="{x:Bind Name, Mode=OneWay}" Style="{StaticResource ProductTitle}"/>
+                        <TextBlock Text="{x:Bind RegistrationData, Mode=OneWay, Converter = {StaticResource ConvertDateTime}}" 
+                                   Style="{StaticResource ProductDataRegister}"/>
+                    </StackPanel>
+
+                    <TextBlock Text="{x:Bind Description, Mode=OneWay}" 
+                               Style="{StaticResource ProductDescription}" Grid.Row="2"/>
+
+                </Grid>
+
+            </Border>
+        </DataTemplate>
+        
+    </Page.Resources>
+    
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Image Source="/Assets/Images/background-list.jpg"
+               Grid.ColumnSpan="5"
+               Grid.RowSpan="3"
+               Stretch="UniformToFill"
+               />
+
+        <Grid   Name="ProductItemView"
+                Grid.Column="1" 
+                Grid.Row="1"
+                MinWidth="400"
+                MinHeight="300"
+                Background="White"
+                Padding="10">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>            
+
+            <StackPanel Orientation="Horizontal" 
+                    VerticalAlignment="Bottom"
+                    Grid.Row="1"
+                    Margin="0 10">
+                
+                <TextBox Text="{x:Bind ItemSelected.Name, Mode=TwoWay}" Style="{StaticResource ProductTitleTextBox}"/>
+                <TextBlock Text="{x:Bind ItemSelected.RegistrationData, Mode=OneWay, Converter={StaticResource ConvertDateTime}}" 
+                           Style="{StaticResource ProductDataRegister}"/>
+            </StackPanel>
+
+            <TextBox    Text="{x:Bind ItemSelected.Description, Mode=TwoWay}" 
+                        Style="{StaticResource ProductDescriptionTextBox}"
+                        Grid.Row="2"/>
+
+            <StackPanel Grid.Row="3" Orientation="Horizontal">
+                <Button x:Name="UpdateButton" 
+                        Content="Update" 
+                        Style="{StaticResource NavigationButton}"
+                        Click="{x:Bind ItemSelected.Update}"
+                        IsEnabled="{x:Bind ItemSelected.IsEnable, Mode=OneWay}"
+                        />
+                <Button x:Name="DeleteButton" 
+                        Content="Delete" 
+                        Style="{StaticResource NavigationButton}"
+                        Click="{x:Bind ItemSelected.Delete}"
+                        IsEnabled="{x:Bind ItemSelected.IsEnable, Mode=OneWay}"                        
+                        />
+                <Button Content="ADD NEW PRODUCT" 
+                        Grid.Row="1"
+                        HorizontalAlignment="Right"
+                        Style="{StaticResource NavigationButton}"
+                        Background="#85CB33"
+                        Foreground="White"
+                        FontWeight="SemiBold"
+                        Margin="0"
+                        Click="{x:Bind ItemSelected.Add}"
+                        />
+            </StackPanel>
+
+        </Grid>
+
+        <ListView Name="ListViewProducts"
+                  Grid.Column="3"
+                  Grid.RowSpan="3"
+                  ScrollViewer.VerticalScrollBarVisibility="Hidden"
+                  HorizontalAlignment="Center"
+                  Padding="20"
+                  BorderThickness="0"
+                  ItemTemplate="{StaticResource ProductTemplate}"
+                  ItemsSource="{x:Bind ViewModel.ListProducts, Mode=OneWay}"
+                  Background="Transparent"        
+                  SelectionMode="Single"   
+                  IsItemClickEnabled="True"
+                  ItemClick="ListView_ItemClick"
+                  />     
+        
+        
+    </Grid>
+</Page>

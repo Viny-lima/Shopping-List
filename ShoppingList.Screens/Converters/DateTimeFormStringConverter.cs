@@ -1,7 +1,7 @@
 ﻿using System;
 using Windows.UI.Xaml.Data;
 
-namespace ShoppingList.Screens.Converters
+namespace ShoppingList.Service.Converters
 {
     public class DateTimeFormStringConverter : IValueConverter
     {

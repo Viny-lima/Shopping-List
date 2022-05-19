@@ -4,7 +4,7 @@ using ShoppingList.Data.DAO;
 using ShoppingList.Data.Interfaces;
 using ShoppingList.Data.Repositories;
 using ShoppingList.Domain.Interfaces;
-using ShoppingList.Screens.Views;
+using ShoppingList.Service.Views;
 using ShoppingList.Service.Services;
 using System;
 using System.Collections.Generic;
@@ -24,7 +24,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-namespace ShoppingList.Screens
+namespace ShoppingList.Service
 {
     sealed partial class App : Application
     {
@@ -34,7 +34,8 @@ namespace ShoppingList.Screens
         public App()
         {
             this.InitializeComponent();
-            CreateDatabaseApp();
+
+            new ManagerDatabase().CreateDatabase();
             this.Suspending += OnSuspending;
 
             //Dependecy Injection
@@ -53,11 +54,32 @@ namespace ShoppingList.Screens
             return service.BuildServiceProvider();
         }
 
-        private void CreateDatabaseApp()
+        protected override void OnActivated(IActivatedEventArgs e)
         {
-            var path = Path.Combine(ApplicationData.Current.LocalFolder.Path, "Database.db");
-            new ManagerDatabase(path).CreateDatabase();
+            base.OnActivated(e);
+
+            Frame rootFrame = Window.Current.Content as Frame;
+
+            if (rootFrame == null)
+            {
+                rootFrame = new Frame();
+
+                rootFrame.NavigationFailed += OnNavigationFailed;
+
+
+                Window.Current.Content = rootFrame;
+            }
+
+            if (rootFrame.Content == null)
+            {
+                rootFrame.Navigate(typeof(ProductsPage));
+            }
+
+            Window.Current.Activate();
+
         }
+
+
 
         protected override void OnLaunched(LaunchActivatedEventArgs e)
         {
@@ -81,7 +103,7 @@ namespace ShoppingList.Screens
             {
                 if (rootFrame.Content == null)
                 {
-                    rootFrame.Navigate(typeof(ProductsView), e.Arguments);
+                    rootFrame.Navigate(typeof(ProductsPage), e.Arguments);
                 }
 
                 Window.Current.Activate();
