@@ -21,6 +21,10 @@ namespace ShoppingList.Service.Events
         public delegate void LoadListProduct();
         public static event LoadListProduct RefreshList;
 
+        public static void OnRefreshList()
+        {
+            RefreshList?.Invoke();
+        }
 
         public static void OnUpdateProduct(Product product)
         {

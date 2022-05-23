@@ -32,6 +32,7 @@ namespace ShoppingList.Main
             ViewModel = App.Container.Resolve<MainViewModel>();
             DataContext = ViewModel;
         }
+       
 
         private void SeeAllProductsButton_Click(object sender, RoutedEventArgs e)
         {
@@ -40,7 +41,7 @@ namespace ShoppingList.Main
 
         private void Refresh_Click(object sender, RoutedEventArgs e)
         {
-            ViewModel.RefreshListWithTwoLastItens();
+            ViewModel.RefreshListWithTwoLastItens();          
         }
     }
 }

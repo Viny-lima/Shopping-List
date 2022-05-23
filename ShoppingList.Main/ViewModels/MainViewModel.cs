@@ -1,4 +1,5 @@
-﻿using ShoppingList.Domain.Entities;
+﻿using Microsoft.VisualStudio.PlatformUI;
+using ShoppingList.Domain.Entities;
 using ShoppingList.Domain.Interfaces;
 using ShoppingList.Service.Events;
 using System;
@@ -10,18 +11,37 @@ using System.Threading.Tasks;
 
 namespace ShoppingList.Main.ViewModels
 {
-    public class MainViewModel
+    public class MainViewModel : ObservableObject
     {
+        private bool _listEmpty;
+        public bool IsAny
+        {
+            get 
+            {
+                return _listEmpty;
+            }
+            set
+            {
+                SetProperty(ref _listEmpty, value);
+            }
+        }
+
         public ObservableCollection<Product> ListProducts { get; set; }
 
         private readonly IProductService service;
+
         public MainViewModel(IProductService service)
         {
             this.service = service;
 
-            ShoppingListEvents.RefreshList += RefreshListWithTwoLastItens;
+            ShoppingListEvents.RefreshList += isRefreshListEmpty;
 
             StartListWithTwoLastItens();
+        }   
+
+        private void isRefreshListEmpty()
+        {
+            IsAny = ListProducts.Any();
         }
 
         private void StartListWithTwoLastItens()
@@ -41,6 +61,8 @@ namespace ShoppingList.Main.ViewModels
 
                 count++;
             }
+
+            ShoppingListEvents.OnRefreshList();
         }
 
         public void RefreshListWithTwoLastItens()
@@ -60,6 +82,8 @@ namespace ShoppingList.Main.ViewModels
 
                 count++;
             }
+
+            ShoppingListEvents.OnRefreshList();
         }
     }
 }

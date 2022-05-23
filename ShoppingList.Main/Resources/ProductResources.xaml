@@ -1,9 +1,10 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
-                    xmlns:converts="clr-namespace:ShoppingList.MainScreen.Converters"
+                    xmlns:converts="clr-namespace:ShoppingList.Main.Converters"
                     xmlns:domain="clr-namespace:ShoppingList.Domain.Entities;assembly=ShoppingList.Domain">
-    
+
     <converts:DateTimeFormStringConverter x:Key="ConvertDateTime"/>
+    <converts:VisibilityFromBoolConvert x:Key="CovertBoolean"/>
 
     <DataTemplate x:Key="Product"  DataType="{x:Type domain:Product}">
         <Border Background="#eeeeee"

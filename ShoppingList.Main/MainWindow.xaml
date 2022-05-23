@@ -39,10 +39,17 @@
                     HorizontalAlignment="Center"
                     VerticalAlignment="Center"
                     Margin="0 20">
+            <Button Name="AddNewProductsButton" 
+                    Content="Add New Product" 
+                    Style="{DynamicResource NavigationButton}" 
+                    Click="SeeAllProductsButton_Click"
+                    Visibility="{Binding !IsAny, Converter={StaticResource CovertBoolean}}"
+                    />
             <Button Name="SeeAllProductsButton" 
                     Content="See all Products" 
                     Style="{DynamicResource NavigationButton}" 
                     Click="SeeAllProductsButton_Click"
+                    Visibility="{Binding IsAny, Converter={StaticResource CovertBoolean}}"                    
                     />
             <Button Name="Refresh" 
                     Content="Refresh" 

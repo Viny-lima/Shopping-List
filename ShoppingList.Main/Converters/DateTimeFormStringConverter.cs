@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Data;
 
-namespace ShoppingList.MainScreen.Converters
+namespace ShoppingList.Main.Converters
 {
     public class DateTimeFormStringConverter : IValueConverter
     {

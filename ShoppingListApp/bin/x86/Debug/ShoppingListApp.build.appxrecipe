@@ -58,7 +58,13 @@
     <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Autofac.6.3.0\lib\netstandard2.0\Autofac.dll">
       <PackagePath>ShoppingList.Main\Autofac.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.Bcl.AsyncInterfaces.1.1.1\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll">
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\MessagePack.Annotations.2.3.85\lib\netstandard2.0\MessagePack.Annotations.dll">
+      <PackagePath>ShoppingList.Main\MessagePack.Annotations.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\MessagePack.2.3.85\lib\netstandard2.0\MessagePack.dll">
+      <PackagePath>ShoppingList.Main\MessagePack.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.Bcl.AsyncInterfaces.6.0.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll">
       <PackagePath>ShoppingList.Main\Microsoft.Bcl.AsyncInterfaces.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.Bcl.HashCode.1.1.1\lib\net461\Microsoft.Bcl.HashCode.dll">
@@ -118,7 +124,40 @@
     <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.Extensions.Primitives.3.1.25\lib\netstandard2.0\Microsoft.Extensions.Primitives.dll">
       <PackagePath>ShoppingList.Main\Microsoft.Extensions.Primitives.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll">
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.ServiceHub.Client.3.1.4097\lib\net472\Microsoft.ServiceHub.Client.dll">
+      <PackagePath>ShoppingList.Main\Microsoft.ServiceHub.Client.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.ServiceHub.Framework.3.1.4097\lib\netstandard2.0\Microsoft.ServiceHub.Framework.dll">
+      <PackagePath>ShoppingList.Main\Microsoft.ServiceHub.Framework.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.VisualStudio.RemoteControl.16.3.44\lib\net45\Microsoft.VisualStudio.RemoteControl.dll">
+      <PackagePath>ShoppingList.Main\Microsoft.VisualStudio.RemoteControl.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.VisualStudio.RpcContracts.17.2.31\lib\netstandard2.0\Microsoft.VisualStudio.RpcContracts.dll">
+      <PackagePath>ShoppingList.Main\Microsoft.VisualStudio.RpcContracts.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.VisualStudio.Telemetry.16.4.56\lib\net45\Microsoft.VisualStudio.Telemetry.dll">
+      <PackagePath>ShoppingList.Main\Microsoft.VisualStudio.Telemetry.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.VisualStudio.Threading.17.1.46\lib\net472\Microsoft.VisualStudio.Threading.dll">
+      <PackagePath>ShoppingList.Main\Microsoft.VisualStudio.Threading.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.VisualStudio.Utilities.17.2.32505.113\lib\net472\Microsoft.VisualStudio.Utilities.dll">
+      <PackagePath>ShoppingList.Main\Microsoft.VisualStudio.Utilities.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.VisualStudio.Utilities.Internal.16.3.36\lib\net45\Microsoft.VisualStudio.Utilities.Internal.dll">
+      <PackagePath>ShoppingList.Main\Microsoft.VisualStudio.Utilities.Internal.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.VisualStudio.Validation.17.0.43\lib\netstandard2.0\Microsoft.VisualStudio.Validation.dll">
+      <PackagePath>ShoppingList.Main\Microsoft.VisualStudio.Validation.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.Win32.Registry.5.0.0\lib\net461\Microsoft.Win32.Registry.dll">
+      <PackagePath>ShoppingList.Main\Microsoft.Win32.Registry.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Nerdbank.Streams.2.8.57\lib\netstandard2.0\Nerdbank.Streams.dll">
+      <PackagePath>ShoppingList.Main\Nerdbank.Streams.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll">
       <PackagePath>ShoppingList.Main\Newtonsoft.Json.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\MySource\Shopping-List\ShoppingList.Data\bin\x86\Debug\netstandard2.0\ShoppingList.Data.dll">
@@ -142,17 +181,38 @@
     <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\SQLitePCLRaw.provider.dynamic_cdecl.2.0.4\lib\netstandard2.0\SQLitePCLRaw.provider.dynamic_cdecl.dll">
       <PackagePath>ShoppingList.Main\SQLitePCLRaw.provider.dynamic_cdecl.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\StreamJsonRpc.2.11.35\lib\netstandard2.0\StreamJsonRpc.dll">
+      <PackagePath>ShoppingList.Main\StreamJsonRpc.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll">
       <PackagePath>ShoppingList.Main\System.Buffers.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\System.Collections.Immutable.1.7.1\lib\net461\System.Collections.Immutable.dll">
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\System.Collections.Immutable.5.0.0\lib\net461\System.Collections.Immutable.dll">
       <PackagePath>ShoppingList.Main\System.Collections.Immutable.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\System.ComponentModel.Annotations.4.7.0\lib\net461\System.ComponentModel.Annotations.dll">
       <PackagePath>ShoppingList.Main\System.ComponentModel.Annotations.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\System.Diagnostics.DiagnosticSource.4.7.1\lib\net46\System.Diagnostics.DiagnosticSource.dll">
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\System.Composition.AttributedModel.6.0.0\lib\net461\System.Composition.AttributedModel.dll">
+      <PackagePath>ShoppingList.Main\System.Composition.AttributedModel.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\System.Composition.Convention.6.0.0\lib\net461\System.Composition.Convention.dll">
+      <PackagePath>ShoppingList.Main\System.Composition.Convention.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\System.Composition.Hosting.6.0.0\lib\net461\System.Composition.Hosting.dll">
+      <PackagePath>ShoppingList.Main\System.Composition.Hosting.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\System.Composition.Runtime.6.0.0\lib\net461\System.Composition.Runtime.dll">
+      <PackagePath>ShoppingList.Main\System.Composition.Runtime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\System.Composition.TypedParts.6.0.0\lib\net461\System.Composition.TypedParts.dll">
+      <PackagePath>ShoppingList.Main\System.Composition.TypedParts.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\System.Diagnostics.DiagnosticSource.6.0.0\lib\net461\System.Diagnostics.DiagnosticSource.dll">
       <PackagePath>ShoppingList.Main\System.Diagnostics.DiagnosticSource.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\System.IO.Pipelines.6.0.1\lib\net461\System.IO.Pipelines.dll">
+      <PackagePath>ShoppingList.Main\System.IO.Pipelines.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\System.Memory.4.5.4\lib\net461\System.Memory.dll">
       <PackagePath>ShoppingList.Main\System.Memory.dll</PackagePath>
@@ -160,11 +220,221 @@
     <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll">
       <PackagePath>ShoppingList.Main\System.Numerics.Vectors.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\System.Runtime.CompilerServices.Unsafe.4.7.1\lib\net461\System.Runtime.CompilerServices.Unsafe.dll">
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll">
       <PackagePath>ShoppingList.Main\System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\System.Security.AccessControl.6.0.0\lib\net461\System.Security.AccessControl.dll">
+      <PackagePath>ShoppingList.Main\System.Security.AccessControl.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\System.Security.Principal.Windows.5.0.0\lib\net461\System.Security.Principal.Windows.dll">
+      <PackagePath>ShoppingList.Main\System.Security.Principal.Windows.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\System.Threading.AccessControl.6.0.0\lib\net461\System.Threading.AccessControl.dll">
+      <PackagePath>ShoppingList.Main\System.Threading.AccessControl.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\System.Threading.Tasks.Dataflow.6.0.0\lib\net461\System.Threading.Tasks.Dataflow.dll">
+      <PackagePath>ShoppingList.Main\System.Threading.Tasks.Dataflow.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll">
       <PackagePath>ShoppingList.Main\System.Threading.Tasks.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.ServiceHub.Framework.3.1.4097\lib\netstandard2.0\cs\Microsoft.ServiceHub.Framework.resources.dll">
+      <PackagePath>ShoppingList.Main\cs\Microsoft.ServiceHub.Framework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.ServiceHub.Framework.3.1.4097\lib\netstandard2.0\de\Microsoft.ServiceHub.Framework.resources.dll">
+      <PackagePath>ShoppingList.Main\de\Microsoft.ServiceHub.Framework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.ServiceHub.Framework.3.1.4097\lib\netstandard2.0\es\Microsoft.ServiceHub.Framework.resources.dll">
+      <PackagePath>ShoppingList.Main\es\Microsoft.ServiceHub.Framework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.ServiceHub.Framework.3.1.4097\lib\netstandard2.0\fr\Microsoft.ServiceHub.Framework.resources.dll">
+      <PackagePath>ShoppingList.Main\fr\Microsoft.ServiceHub.Framework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.ServiceHub.Framework.3.1.4097\lib\netstandard2.0\it\Microsoft.ServiceHub.Framework.resources.dll">
+      <PackagePath>ShoppingList.Main\it\Microsoft.ServiceHub.Framework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.ServiceHub.Framework.3.1.4097\lib\netstandard2.0\ja\Microsoft.ServiceHub.Framework.resources.dll">
+      <PackagePath>ShoppingList.Main\ja\Microsoft.ServiceHub.Framework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.ServiceHub.Framework.3.1.4097\lib\netstandard2.0\ko\Microsoft.ServiceHub.Framework.resources.dll">
+      <PackagePath>ShoppingList.Main\ko\Microsoft.ServiceHub.Framework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.ServiceHub.Framework.3.1.4097\lib\netstandard2.0\pl\Microsoft.ServiceHub.Framework.resources.dll">
+      <PackagePath>ShoppingList.Main\pl\Microsoft.ServiceHub.Framework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.ServiceHub.Framework.3.1.4097\lib\netstandard2.0\pt-BR\Microsoft.ServiceHub.Framework.resources.dll">
+      <PackagePath>ShoppingList.Main\pt-BR\Microsoft.ServiceHub.Framework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.ServiceHub.Framework.3.1.4097\lib\netstandard2.0\ru\Microsoft.ServiceHub.Framework.resources.dll">
+      <PackagePath>ShoppingList.Main\ru\Microsoft.ServiceHub.Framework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.ServiceHub.Framework.3.1.4097\lib\netstandard2.0\tr\Microsoft.ServiceHub.Framework.resources.dll">
+      <PackagePath>ShoppingList.Main\tr\Microsoft.ServiceHub.Framework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.ServiceHub.Framework.3.1.4097\lib\netstandard2.0\zh-Hans\Microsoft.ServiceHub.Framework.resources.dll">
+      <PackagePath>ShoppingList.Main\zh-Hans\Microsoft.ServiceHub.Framework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.ServiceHub.Framework.3.1.4097\lib\netstandard2.0\zh-Hant\Microsoft.ServiceHub.Framework.resources.dll">
+      <PackagePath>ShoppingList.Main\zh-Hant\Microsoft.ServiceHub.Framework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.VisualStudio.Threading.17.1.46\lib\net472\cs\Microsoft.VisualStudio.Threading.resources.dll">
+      <PackagePath>ShoppingList.Main\cs\Microsoft.VisualStudio.Threading.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.VisualStudio.Threading.17.1.46\lib\net472\de\Microsoft.VisualStudio.Threading.resources.dll">
+      <PackagePath>ShoppingList.Main\de\Microsoft.VisualStudio.Threading.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.VisualStudio.Threading.17.1.46\lib\net472\es\Microsoft.VisualStudio.Threading.resources.dll">
+      <PackagePath>ShoppingList.Main\es\Microsoft.VisualStudio.Threading.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.VisualStudio.Threading.17.1.46\lib\net472\fr\Microsoft.VisualStudio.Threading.resources.dll">
+      <PackagePath>ShoppingList.Main\fr\Microsoft.VisualStudio.Threading.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.VisualStudio.Threading.17.1.46\lib\net472\it\Microsoft.VisualStudio.Threading.resources.dll">
+      <PackagePath>ShoppingList.Main\it\Microsoft.VisualStudio.Threading.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.VisualStudio.Threading.17.1.46\lib\net472\ja\Microsoft.VisualStudio.Threading.resources.dll">
+      <PackagePath>ShoppingList.Main\ja\Microsoft.VisualStudio.Threading.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.VisualStudio.Threading.17.1.46\lib\net472\ko\Microsoft.VisualStudio.Threading.resources.dll">
+      <PackagePath>ShoppingList.Main\ko\Microsoft.VisualStudio.Threading.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.VisualStudio.Threading.17.1.46\lib\net472\pl\Microsoft.VisualStudio.Threading.resources.dll">
+      <PackagePath>ShoppingList.Main\pl\Microsoft.VisualStudio.Threading.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.VisualStudio.Threading.17.1.46\lib\net472\pt-BR\Microsoft.VisualStudio.Threading.resources.dll">
+      <PackagePath>ShoppingList.Main\pt-BR\Microsoft.VisualStudio.Threading.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.VisualStudio.Threading.17.1.46\lib\net472\ru\Microsoft.VisualStudio.Threading.resources.dll">
+      <PackagePath>ShoppingList.Main\ru\Microsoft.VisualStudio.Threading.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.VisualStudio.Threading.17.1.46\lib\net472\tr\Microsoft.VisualStudio.Threading.resources.dll">
+      <PackagePath>ShoppingList.Main\tr\Microsoft.VisualStudio.Threading.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.VisualStudio.Threading.17.1.46\lib\net472\zh-Hans\Microsoft.VisualStudio.Threading.resources.dll">
+      <PackagePath>ShoppingList.Main\zh-Hans\Microsoft.VisualStudio.Threading.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.VisualStudio.Threading.17.1.46\lib\net472\zh-Hant\Microsoft.VisualStudio.Threading.resources.dll">
+      <PackagePath>ShoppingList.Main\zh-Hant\Microsoft.VisualStudio.Threading.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.VisualStudio.Utilities.17.2.32505.113\lib\net472\cs\Microsoft.VisualStudio.Utilities.resources.dll">
+      <PackagePath>ShoppingList.Main\cs\Microsoft.VisualStudio.Utilities.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.VisualStudio.Utilities.17.2.32505.113\lib\net472\de\Microsoft.VisualStudio.Utilities.resources.dll">
+      <PackagePath>ShoppingList.Main\de\Microsoft.VisualStudio.Utilities.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.VisualStudio.Utilities.17.2.32505.113\lib\net472\en\Microsoft.VisualStudio.Utilities.resources.dll">
+      <PackagePath>ShoppingList.Main\en\Microsoft.VisualStudio.Utilities.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.VisualStudio.Utilities.17.2.32505.113\lib\net472\es\Microsoft.VisualStudio.Utilities.resources.dll">
+      <PackagePath>ShoppingList.Main\es\Microsoft.VisualStudio.Utilities.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.VisualStudio.Utilities.17.2.32505.113\lib\net472\fr\Microsoft.VisualStudio.Utilities.resources.dll">
+      <PackagePath>ShoppingList.Main\fr\Microsoft.VisualStudio.Utilities.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.VisualStudio.Utilities.17.2.32505.113\lib\net472\it\Microsoft.VisualStudio.Utilities.resources.dll">
+      <PackagePath>ShoppingList.Main\it\Microsoft.VisualStudio.Utilities.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.VisualStudio.Utilities.17.2.32505.113\lib\net472\ja\Microsoft.VisualStudio.Utilities.resources.dll">
+      <PackagePath>ShoppingList.Main\ja\Microsoft.VisualStudio.Utilities.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.VisualStudio.Utilities.17.2.32505.113\lib\net472\ko\Microsoft.VisualStudio.Utilities.resources.dll">
+      <PackagePath>ShoppingList.Main\ko\Microsoft.VisualStudio.Utilities.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.VisualStudio.Utilities.17.2.32505.113\lib\net472\pl\Microsoft.VisualStudio.Utilities.resources.dll">
+      <PackagePath>ShoppingList.Main\pl\Microsoft.VisualStudio.Utilities.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.VisualStudio.Utilities.17.2.32505.113\lib\net472\pt-BR\Microsoft.VisualStudio.Utilities.resources.dll">
+      <PackagePath>ShoppingList.Main\pt-BR\Microsoft.VisualStudio.Utilities.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.VisualStudio.Utilities.17.2.32505.113\lib\net472\ru\Microsoft.VisualStudio.Utilities.resources.dll">
+      <PackagePath>ShoppingList.Main\ru\Microsoft.VisualStudio.Utilities.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.VisualStudio.Utilities.17.2.32505.113\lib\net472\tr\Microsoft.VisualStudio.Utilities.resources.dll">
+      <PackagePath>ShoppingList.Main\tr\Microsoft.VisualStudio.Utilities.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.VisualStudio.Utilities.17.2.32505.113\lib\net472\zh-Hans\Microsoft.VisualStudio.Utilities.resources.dll">
+      <PackagePath>ShoppingList.Main\zh-Hans\Microsoft.VisualStudio.Utilities.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.VisualStudio.Utilities.17.2.32505.113\lib\net472\zh-Hant\Microsoft.VisualStudio.Utilities.resources.dll">
+      <PackagePath>ShoppingList.Main\zh-Hant\Microsoft.VisualStudio.Utilities.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.VisualStudio.Validation.17.0.43\lib\netstandard2.0\cs\Microsoft.VisualStudio.Validation.resources.dll">
+      <PackagePath>ShoppingList.Main\cs\Microsoft.VisualStudio.Validation.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.VisualStudio.Validation.17.0.43\lib\netstandard2.0\de\Microsoft.VisualStudio.Validation.resources.dll">
+      <PackagePath>ShoppingList.Main\de\Microsoft.VisualStudio.Validation.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.VisualStudio.Validation.17.0.43\lib\netstandard2.0\es\Microsoft.VisualStudio.Validation.resources.dll">
+      <PackagePath>ShoppingList.Main\es\Microsoft.VisualStudio.Validation.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.VisualStudio.Validation.17.0.43\lib\netstandard2.0\fr\Microsoft.VisualStudio.Validation.resources.dll">
+      <PackagePath>ShoppingList.Main\fr\Microsoft.VisualStudio.Validation.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.VisualStudio.Validation.17.0.43\lib\netstandard2.0\it\Microsoft.VisualStudio.Validation.resources.dll">
+      <PackagePath>ShoppingList.Main\it\Microsoft.VisualStudio.Validation.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.VisualStudio.Validation.17.0.43\lib\netstandard2.0\ja\Microsoft.VisualStudio.Validation.resources.dll">
+      <PackagePath>ShoppingList.Main\ja\Microsoft.VisualStudio.Validation.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.VisualStudio.Validation.17.0.43\lib\netstandard2.0\ko\Microsoft.VisualStudio.Validation.resources.dll">
+      <PackagePath>ShoppingList.Main\ko\Microsoft.VisualStudio.Validation.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.VisualStudio.Validation.17.0.43\lib\netstandard2.0\pl\Microsoft.VisualStudio.Validation.resources.dll">
+      <PackagePath>ShoppingList.Main\pl\Microsoft.VisualStudio.Validation.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.VisualStudio.Validation.17.0.43\lib\netstandard2.0\pt-BR\Microsoft.VisualStudio.Validation.resources.dll">
+      <PackagePath>ShoppingList.Main\pt-BR\Microsoft.VisualStudio.Validation.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.VisualStudio.Validation.17.0.43\lib\netstandard2.0\ru\Microsoft.VisualStudio.Validation.resources.dll">
+      <PackagePath>ShoppingList.Main\ru\Microsoft.VisualStudio.Validation.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.VisualStudio.Validation.17.0.43\lib\netstandard2.0\tr\Microsoft.VisualStudio.Validation.resources.dll">
+      <PackagePath>ShoppingList.Main\tr\Microsoft.VisualStudio.Validation.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.VisualStudio.Validation.17.0.43\lib\netstandard2.0\zh-Hans\Microsoft.VisualStudio.Validation.resources.dll">
+      <PackagePath>ShoppingList.Main\zh-Hans\Microsoft.VisualStudio.Validation.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\Microsoft.VisualStudio.Validation.17.0.43\lib\netstandard2.0\zh-Hant\Microsoft.VisualStudio.Validation.resources.dll">
+      <PackagePath>ShoppingList.Main\zh-Hant\Microsoft.VisualStudio.Validation.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\StreamJsonRpc.2.11.35\lib\netstandard2.0\cs\StreamJsonRpc.resources.dll">
+      <PackagePath>ShoppingList.Main\cs\StreamJsonRpc.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\StreamJsonRpc.2.11.35\lib\netstandard2.0\de\StreamJsonRpc.resources.dll">
+      <PackagePath>ShoppingList.Main\de\StreamJsonRpc.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\StreamJsonRpc.2.11.35\lib\netstandard2.0\es\StreamJsonRpc.resources.dll">
+      <PackagePath>ShoppingList.Main\es\StreamJsonRpc.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\StreamJsonRpc.2.11.35\lib\netstandard2.0\fr\StreamJsonRpc.resources.dll">
+      <PackagePath>ShoppingList.Main\fr\StreamJsonRpc.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\StreamJsonRpc.2.11.35\lib\netstandard2.0\it\StreamJsonRpc.resources.dll">
+      <PackagePath>ShoppingList.Main\it\StreamJsonRpc.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\StreamJsonRpc.2.11.35\lib\netstandard2.0\ja\StreamJsonRpc.resources.dll">
+      <PackagePath>ShoppingList.Main\ja\StreamJsonRpc.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\StreamJsonRpc.2.11.35\lib\netstandard2.0\ko\StreamJsonRpc.resources.dll">
+      <PackagePath>ShoppingList.Main\ko\StreamJsonRpc.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\StreamJsonRpc.2.11.35\lib\netstandard2.0\pl\StreamJsonRpc.resources.dll">
+      <PackagePath>ShoppingList.Main\pl\StreamJsonRpc.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\StreamJsonRpc.2.11.35\lib\netstandard2.0\pt-BR\StreamJsonRpc.resources.dll">
+      <PackagePath>ShoppingList.Main\pt-BR\StreamJsonRpc.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\StreamJsonRpc.2.11.35\lib\netstandard2.0\ru\StreamJsonRpc.resources.dll">
+      <PackagePath>ShoppingList.Main\ru\StreamJsonRpc.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\StreamJsonRpc.2.11.35\lib\netstandard2.0\tr\StreamJsonRpc.resources.dll">
+      <PackagePath>ShoppingList.Main\tr\StreamJsonRpc.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\StreamJsonRpc.2.11.35\lib\netstandard2.0\zh-Hans\StreamJsonRpc.resources.dll">
+      <PackagePath>ShoppingList.Main\zh-Hans\StreamJsonRpc.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\StreamJsonRpc.2.11.35\lib\netstandard2.0\zh-Hant\StreamJsonRpc.resources.dll">
+      <PackagePath>ShoppingList.Main\zh-Hant\StreamJsonRpc.resources.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\MySource\Shopping-List\packages\SQLitePCLRaw.lib.e_sqlite3.2.0.4\runtimes\win-x86\native\e_sqlite3.dll">
       <PackagePath>ShoppingList.Main\runtimes\win-x86\native\e_sqlite3.dll</PackagePath>
