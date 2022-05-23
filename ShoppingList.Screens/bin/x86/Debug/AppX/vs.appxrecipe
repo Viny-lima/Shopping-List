@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\MySource\Shopping-List\ShoppingList.Screens\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-05-19T17:18:11.400</Modified>
+      <Modified>2022-05-19T18:01:01.726</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\MySource\Shopping-List\ShoppingList.Screens\bin\x86\Debug\ShoppingList.Screens.exe">
       <PackagePath>entrypoint\ShoppingList.Screens.exe</PackagePath>
-      <Modified>2022-05-19T17:18:09.757</Modified>
+      <Modified>2022-05-19T18:00:59.950</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vinicius.fl\.nuget\packages\microsoft.bcl.asyncinterfaces\5.0.0\lib\netstandard2.0\Microsoft.Bcl.AsyncInterfaces.dll">
       <PackagePath>Microsoft.Bcl.AsyncInterfaces.dll</PackagePath>
@@ -250,7 +250,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\MySource\Shopping-List\ShoppingList.Screens\bin\x86\Debug\Core\ShoppingList.Screens.exe">
       <PackagePath>ShoppingList.Screens.exe</PackagePath>
-      <Modified>2022-05-19T17:18:10.938</Modified>
+      <Modified>2022-05-19T18:01:01.506</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
